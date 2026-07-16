@@ -3,7 +3,7 @@ let respecConfig = {
   useLabel: true,
 
   // TODO: title is verplicht! Neem hieronder de titel van het document op
-  title: "Geonovum template voor ReSpec",
+  title: "Conceptueel Informatiemodel Funderingen",
   //-- specStatus is verplicht! (activeer 1 van de volgende)
    specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
@@ -25,7 +25,7 @@ let respecConfig = {
   //-- pubDomain is verplicht! (komt in de URL)
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   //-- TODO: vul pubDomain in
-  pubDomain: "3dbv",
+  pubDomain: "fun",
 
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
@@ -34,7 +34,7 @@ let respecConfig = {
 
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)
   //-- Regel: shortName mag geen hoofdletters bevatten.
-  shortName: "nl-respec-template",
+  shortName: "cim-fun",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
@@ -77,7 +77,7 @@ let respecConfig = {
 
   // TODO: Vul de github URL in.
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Geonovum/NL-ReSpec-template",
+  github: "https://github.com/Geonovum/CIM-Funderingen",
 
   // Create PDF and link to file in header (optional):
   // TODO: Change the filename as preferred.
