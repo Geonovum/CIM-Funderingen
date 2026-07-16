@@ -24,7 +24,7 @@
     "nodes": [
       {
         "target": [
-          ".hljs"
+          ".xml"
         ],
         "html": "<code aria-busy=\"false\" class=\"hljs xml\">",
         "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
