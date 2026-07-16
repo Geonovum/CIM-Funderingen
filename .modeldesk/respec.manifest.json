@@ -1,0 +1,432 @@
+{
+  "model": "CIM - Funderingen",
+  "metamodel": "mim",
+  "metamodelVersion": "1.2",
+  "stack": "respec",
+  "stackVersion": "1.0",
+  "generatedFrom": "3149454f-6f6f-437b-8cf6-86b6beb9b957",
+  "fragments": [
+    {
+      "address": "",
+      "elementId": "5aa4923a-6258-4e7b-8bba-ae7192501e3a",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen",
+      "kind": "informatiemodel",
+      "title": "Informatiemodel Informatiemodel Funderingen",
+      "children": [
+        "lv-woz",
+        "fundering",
+        "omgeving",
+        "risico",
+        "bag",
+        "bro",
+        "nen3610",
+        "brk",
+        "woz"
+      ],
+      "realization": {
+        "path": "data/model/index.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen"
+      }
+    },
+    {
+      "address": "lv-woz",
+      "elementId": "3f6cad59-442c-4032-9abf-fee2a7701d31",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:LV-WOZ",
+      "kind": "view",
+      "title": "View LV-WOZ",
+      "realization": {
+        "path": "data/model/lv-woz/index.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_view_lv_woz",
+        "media": [
+          "data/model/lv-woz/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "fundering",
+      "elementId": "190b1a69-d14d-401c-aa1f-c973e26eb9fe",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Fundering",
+      "kind": "domein",
+      "title": "Domein Fundering",
+      "children": [
+        "fundering/objecttype/pand",
+        "fundering/enumeratie/funderingstype",
+        "fundering/codelijst/funderingtype",
+        "fundering/gegevensgroeptype/funderingsgegevens"
+      ],
+      "realization": {
+        "path": "data/model/fundering/index.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering",
+        "media": [
+          "data/model/fundering/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "fundering/objecttype/pand",
+      "elementId": "903acc93-28d6-4181-8577-35dda84e64c0",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand",
+      "kind": "objecttype",
+      "title": "Pand",
+      "refs": [
+        {
+          "elementId": "8ddc1b7c-e56f-4b75-8c72-77339c980750",
+          "address": "fundering/gegevensgroeptype/funderingsgegevens",
+          "case": "same-model"
+        },
+        {
+          "elementId": "44edc5f6-a832-45d9-8bdc-4693b58d5c42",
+          "address": "extern/conceptueel-model-ibro",
+          "uri": "http://modellen.geostandaarden.nl/def/ibro#Pand",
+          "case": "referenced-model"
+        },
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#Integer",
+          "case": "external"
+        },
+        {
+          "elementId": "c602ac08-25cc-4278-853d-fe6b25648ceb",
+          "address": "extern/nen-3610-2022-basismodel-geo-informatie",
+          "uri": "http://modellen.geostandaarden.nl/def/nen3610#VoidReasonValue",
+          "case": "referenced-model"
+        }
+      ],
+      "anchors": [
+        {
+          "address": "fundering/objecttype/pand/gegevensgroep/funderingsgegevens",
+          "elementId": "582be3b7-87e3-464f-ad19-dd5706b59ede",
+          "kind": "gegevensgroep",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens"
+        },
+        {
+          "address": "fundering/objecttype/pand/generalisatie/unnamed",
+          "elementId": "a0b9c875-4598-4e4a-ac87-5f77e17fabda",
+          "kind": "generalisatie",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_generalisatie_pand"
+        },
+        {
+          "address": "fundering/objecttype/pand/attribuutsoort/bag-id",
+          "elementId": "f546580c-d092-459f-9b20-c9d390d65a9b",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_bag_id"
+        },
+        {
+          "address": "fundering/objecttype/pand/attribuutsoort/geo-test",
+          "elementId": "3d900534-3e5a-4db5-8d5f-e449ca4653ea",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_geo_test"
+        }
+      ],
+      "realization": {
+        "path": "data/model/fundering/objecttype/pand.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand"
+      }
+    },
+    {
+      "address": "fundering/enumeratie/funderingstype",
+      "elementId": "9e33f7ab-dec5-4d9c-9dc2-d18a6aac5ec9",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingstype",
+      "kind": "enumeratie",
+      "title": "Funderingstype",
+      "anchors": [
+        {
+          "address": "fundering/enumeratie/funderingstype/enumeratiewaarde/diepe-fundering",
+          "elementId": "6d0d5c82-1fc7-49fa-8a21-3be1e5ad90bf",
+          "kind": "enumeratiewaarde",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype_enumeratiewaarde_diepe_fundering"
+        },
+        {
+          "address": "fundering/enumeratie/funderingstype/enumeratiewaarde/ondiepe-fundering",
+          "elementId": "de2c36de-cd6e-4979-8841-32817be1ea9a",
+          "kind": "enumeratiewaarde",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype_enumeratiewaarde_ondiepe_fundering"
+        }
+      ],
+      "realization": {
+        "path": "data/model/fundering/enumeratie/funderingstype.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype"
+      }
+    },
+    {
+      "address": "fundering/codelijst/funderingtype",
+      "elementId": "d46487c1-f40b-4598-a8f3-a8c921869436",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Fundering:funderingType",
+      "kind": "codelijst",
+      "title": "funderingType",
+      "realization": {
+        "path": "data/model/fundering/codelijst/funderingtype.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_fundering_type"
+      }
+    },
+    {
+      "address": "fundering/gegevensgroeptype/funderingsgegevens",
+      "elementId": "8ddc1b7c-e56f-4b75-8c72-77339c980750",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens",
+      "kind": "gegevensgroeptype",
+      "title": "Funderingsgegevens",
+      "refs": [
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#Integer",
+          "case": "external"
+        },
+        {
+          "elementId": "9e33f7ab-dec5-4d9c-9dc2-d18a6aac5ec9",
+          "address": "fundering/enumeratie/funderingstype",
+          "case": "same-model"
+        },
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#Integer",
+          "case": "external"
+        },
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#URI",
+          "case": "external"
+        },
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#Decimal",
+          "case": "external"
+        },
+        {
+          "uri": "http://modellen.mim-standaard.nl/def/mim#Integer",
+          "case": "external"
+        }
+      ],
+      "anchors": [
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/aanlegniveau",
+          "elementId": "bc406929-2100-4bad-bf3a-0594c686400a",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aanlegniveau"
+        },
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/funderingstype",
+          "elementId": "dea65e20-307d-453c-af94-a731e96e0764",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstype"
+        },
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/oorspronkelijke-levensduur",
+          "elementId": "932eb987-3f2b-4941-a832-6893c7da0ee7",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_oorspronkelijke_levensduur"
+        },
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/funderingstekening-bouwtekening",
+          "elementId": "52eb5c05-7e4c-489a-98f8-11c47ea9bda0",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstekening_bouwtekening_"
+        },
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/funderingsdiepte",
+          "elementId": "1a451588-1a15-457f-8078-6dcd4ef6efd8",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingsdiepte"
+        },
+        {
+          "address": "fundering/gegevensgroeptype/funderingsgegevens/attribuutsoort/aantalpalen",
+          "elementId": "2db9493f-572d-45ab-858f-964e14ea44e5",
+          "kind": "attribuutsoort",
+          "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aantal_palen"
+        }
+      ],
+      "realization": {
+        "path": "data/model/fundering/gegevensgroeptype/funderingsgegevens.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens"
+      }
+    },
+    {
+      "address": "omgeving",
+      "elementId": "b6945e21-e1e9-42f6-9d6d-7866e56f12ec",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Omgeving",
+      "kind": "domein",
+      "title": "Domein Omgeving",
+      "realization": {
+        "path": "data/model/omgeving/index.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_omgeving",
+        "media": [
+          "data/model/omgeving/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "risico",
+      "elementId": "ac7b4108-4e21-44b5-a2e0-936bc502ad73",
+      "uri": "urn:modelelement:Informatiemodel%20Funderingen:Risico",
+      "kind": "domein",
+      "title": "Domein Risico",
+      "realization": {
+        "path": "data/model/risico/index.md",
+        "anchor": "informatiemodel_informatiemodel_funderingen_domein_risico",
+        "media": [
+          "data/model/risico/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "bag",
+      "elementId": "72cb75cb-43ea-4d18-9cb4-16e25d897c99",
+      "uri": "urn:modelelement:BAG",
+      "kind": "extern",
+      "title": "Extern BAG",
+      "realization": {
+        "path": "data/model/bag/index.md",
+        "anchor": "extern_bag",
+        "media": [
+          "data/model/bag/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "bro",
+      "elementId": "8a717cb2-7296-4700-ba8a-3ef3d82cafff",
+      "uri": "urn:modelelement:BRO",
+      "kind": "extern",
+      "title": "Extern BRO",
+      "realization": {
+        "path": "data/model/bro/index.md",
+        "anchor": "extern_bro",
+        "media": [
+          "data/model/bro/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "nen3610",
+      "elementId": "8be4ee34-f9d7-4468-806a-42f3d4467060",
+      "uri": "urn:modelelement:NEN3610",
+      "kind": "extern",
+      "title": "Extern NEN3610",
+      "children": [
+        "nen3610/objecttype/geoobject",
+        "nen3610/objecttype/reeelobject",
+        "nen3610/objecttype/constructie",
+        "nen3610/objecttype/gebouw"
+      ],
+      "refs": [
+        {
+          "elementId": "fb9d0a3e-d8da-4752-a44d-65f58c3f8fee",
+          "address": "nen3610/objecttype/geoobject",
+          "case": "same-model"
+        },
+        {
+          "elementId": "a782b9cd-ec1d-4c74-82e6-b26ff4aa6c54",
+          "address": "nen3610/objecttype/reeelobject",
+          "case": "same-model"
+        },
+        {
+          "elementId": "50512610-75a0-4946-88ea-260ecf19cdd7",
+          "address": "nen3610/objecttype/constructie",
+          "case": "same-model"
+        },
+        {
+          "elementId": "b62020d5-7481-437d-b09c-656ee55e2bd9",
+          "address": "nen3610/objecttype/gebouw",
+          "case": "same-model"
+        }
+      ],
+      "realization": {
+        "path": "data/model/nen3610/index.md",
+        "anchor": "extern_nen3610",
+        "media": [
+          "data/model/nen3610/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "nen3610/objecttype/geoobject",
+      "elementId": "fb9d0a3e-d8da-4752-a44d-65f58c3f8fee",
+      "uri": "http://modellen.geostandaarden.nl/def/nen3610#GeoObject",
+      "kind": "objecttype",
+      "title": "GeoObject",
+      "realization": {
+        "path": "data/model/nen3610/objecttype/geoobject.md",
+        "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object"
+      }
+    },
+    {
+      "address": "nen3610/objecttype/reeelobject",
+      "elementId": "a782b9cd-ec1d-4c74-82e6-b26ff4aa6c54",
+      "uri": "http://modellen.geostandaarden.nl/def/nen3610#ReeelObject",
+      "kind": "objecttype",
+      "title": "ReeelObject",
+      "anchors": [
+        {
+          "address": "nen3610/objecttype/reeelobject/generalisatie/unnamed",
+          "elementId": "25c3bba0-841d-43bf-a892-5c21ad3c77b4",
+          "kind": "generalisatie",
+          "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object_generalisatie_geo_object"
+        }
+      ],
+      "realization": {
+        "path": "data/model/nen3610/objecttype/reeelobject.md",
+        "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object"
+      }
+    },
+    {
+      "address": "nen3610/objecttype/constructie",
+      "elementId": "50512610-75a0-4946-88ea-260ecf19cdd7",
+      "uri": "http://modellen.geostandaarden.nl/def/nen3610#Constructie",
+      "kind": "objecttype",
+      "title": "Constructie",
+      "anchors": [
+        {
+          "address": "nen3610/objecttype/constructie/generalisatie/unnamed",
+          "elementId": "4bea83b1-4eda-4c33-bdc2-176eb05e4d4c",
+          "kind": "generalisatie",
+          "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie_generalisatie_reeel_object"
+        }
+      ],
+      "realization": {
+        "path": "data/model/nen3610/objecttype/constructie.md",
+        "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie"
+      }
+    },
+    {
+      "address": "nen3610/objecttype/gebouw",
+      "elementId": "b62020d5-7481-437d-b09c-656ee55e2bd9",
+      "uri": "http://modellen.geostandaarden.nl/def/nen3610#Gebouw",
+      "kind": "objecttype",
+      "title": "Gebouw",
+      "anchors": [
+        {
+          "address": "nen3610/objecttype/gebouw/generalisatie/unnamed",
+          "elementId": "b7f1057c-da7d-43ff-8aaf-c116b965a619",
+          "kind": "generalisatie",
+          "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw_generalisatie_constructie"
+        }
+      ],
+      "realization": {
+        "path": "data/model/nen3610/objecttype/gebouw.md",
+        "anchor": "informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw"
+      }
+    },
+    {
+      "address": "brk",
+      "elementId": "f17f12b2-f40a-438b-a2f4-13a7d7c4e050",
+      "uri": "urn:modelelement:BRK",
+      "kind": "extern",
+      "title": "Extern BRK",
+      "realization": {
+        "path": "data/model/brk/index.md",
+        "anchor": "extern_brk",
+        "media": [
+          "data/model/brk/package-view.png"
+        ]
+      }
+    },
+    {
+      "address": "woz",
+      "elementId": "514a22f6-c1f0-4c2d-aabe-19c2d32ee914",
+      "uri": "urn:modelelement:WOZ",
+      "kind": "extern",
+      "title": "Extern WOZ",
+      "realization": {
+        "path": "data/model/woz/index.md",
+        "anchor": "extern_woz",
+        "media": [
+          "data/model/woz/package-view.png"
+        ]
+      }
+    }
+  ]
+}
