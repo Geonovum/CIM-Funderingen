@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 37.0.0">
+<meta name="generator" content="ReSpec 37.2.0">
 <style>
 .issue-label{text-transform:initial}
 .warning>p:first-child{margin-top:0}
@@ -183,7 +183,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
     color: white;
     white-space: nowrap;
     z-index: 1;
-    background-color: #80CC28;
+    background-color: #FF0000;
   }
 </style>
 <script type="text/javascript">
@@ -1397,8 +1397,8 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
     }
   },
   "title": "Geonovum template voor ReSpec",
-  "specStatus": "basis",
-  "specType": "HR",
+  "specStatus": "wv",
+  "specType": "IM",
   "pubDomain": "3dbv",
   "shortName": "nl-respec-template",
   "publishDate": "2026-02-09",
@@ -1426,13 +1426,13 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
   </a> <h1 id="title" class="title">Geonovum template voor ReSpec</h1>
     
     <h2>
-      Geonovum Handreiking<br>
-      Document
-      <time class="dt-published" datetime="2026-02-09">09 februari 2026</time>
+      Geonovum Informatiemodel<br>
+      Werkversie
+      <time class="dt-published" datetime="2026-02-09">16 juli 2026</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/3dbv/basis-hr-nl-respec-template-20260209">https://docs.geostandaarden.nl/3dbv/basis-hr-nl-respec-template-20260209</a>
+              <a class="u-url status" href="https://geonovum.github.io/NL-ReSpec-template/">https://geonovum.github.io/NL-ReSpec-template/</a>
             </dd>
       <dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://docs.geostandaarden.nl/3dbv/nl-respec-template/">https://docs.geostandaarden.nl/3dbv/nl-respec-template/</a>
@@ -1475,7 +1475,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
 
 <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>TODO: vul in abstract.md een abstract in.</p>
 </section>
-<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een document zonder officiële status.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#een-subparagraaf"><bdi class="secno">1.1 </bdi>Een subparagraaf</a></li></ol></li><li class="tocline"><a class="tocxref" href="#meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">2.1 </bdi>Definities</a></li><li class="tocline"><a class="tocxref" href="#afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">2.3 </bdi>Referenties</a></li><li class="tocline"><a class="tocxref" href="#optioneel"><bdi class="secno">2.4 </bdi>Optioneel</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">4. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
+<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#een-subparagraaf"><bdi class="secno">1.1 </bdi>Een subparagraaf</a></li></ol></li><li class="tocline"><a class="tocxref" href="#meer-inhoud"><bdi class="secno">2. </bdi>Meer inhoud</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">2.1 </bdi>Definities</a></li><li class="tocline"><a class="tocxref" href="#afbeeldingen"><bdi class="secno">2.2 </bdi>Afbeeldingen</a></li><li class="tocline"><a class="tocxref" href="#referenties"><bdi class="secno">2.3 </bdi>Referenties</a></li><li class="tocline"><a class="tocxref" href="#optioneel"><bdi class="secno">2.4 </bdi>Optioneel</a></li></ol></li><li class="tocline"><a class="tocxref" href="#mermaid-diagram"><bdi class="secno">3. </bdi>Mermaid diagram</a></li><li class="tocline"><a class="tocxref" href="#informatiemodel-cim-funderingen"><bdi class="secno">4. </bdi>Informatiemodel CIM - Funderingen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#view-lv-woz"><bdi class="secno">4.1 </bdi>View LV-WOZ</a></li><li class="tocline"><a class="tocxref" href="#domein-fundering"><bdi class="secno">4.2 </bdi>Domein Fundering</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttypen"><bdi class="secno">4.2.1 </bdi>Objecttypen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand"><bdi class="secno">4.2.1.1 </bdi>Pand</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gegevensgroeptypen"><bdi class="secno">4.2.2 </bdi>Gegevensgroeptypen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens"><bdi class="secno">4.2.2.1 </bdi>Funderingsgegevens</a></li></ol></li><li class="tocline"><a class="tocxref" href="#enumeraties"><bdi class="secno">4.2.3 </bdi>Enumeraties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype"><bdi class="secno">4.2.3.1 </bdi>Funderingstype</a></li></ol></li><li class="tocline"><a class="tocxref" href="#codelijsten"><bdi class="secno">4.2.4 </bdi>Codelijsten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_fundering_type"><bdi class="secno">4.2.4.1 </bdi>funderingType</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#domein-omgeving"><bdi class="secno">4.3 </bdi>Domein Omgeving</a></li><li class="tocline"><a class="tocxref" href="#domein-risico"><bdi class="secno">4.4 </bdi>Domein Risico</a></li><li class="tocline"><a class="tocxref" href="#extern-bag"><bdi class="secno">4.5 </bdi>Extern BAG</a></li><li class="tocline"><a class="tocxref" href="#extern-bro"><bdi class="secno">4.6 </bdi>Extern BRO</a></li><li class="tocline"><a class="tocxref" href="#extern-nen3610"><bdi class="secno">4.7 </bdi>Extern NEN3610</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttypen-0"><bdi class="secno">4.7.1 </bdi>Objecttypen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object"><bdi class="secno">4.7.1.1 </bdi>GeoObject</a></li><li class="tocline"><a class="tocxref" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object"><bdi class="secno">4.7.1.2 </bdi>ReeelObject</a></li><li class="tocline"><a class="tocxref" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie"><bdi class="secno">4.7.1.3 </bdi>Constructie</a></li><li class="tocline"><a class="tocxref" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw"><bdi class="secno">4.7.1.4 </bdi>Gebouw</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#extern-brk"><bdi class="secno">4.8 </bdi>Extern BRK</a></li><li class="tocline"><a class="tocxref" href="#extern-woz"><bdi class="secno">4.9 </bdi>Extern WOZ</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">5. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</a></li></ol></li></ol></nav>
 
 
 <section class="informative" id="niet-normatieve-deel"><div class="header-wrapper"><h2 id="x1-niet-normatieve-deel"><bdi class="secno">1. </bdi>Niet-normatieve deel</h2><a class="self-link" href="#niet-normatieve-deel" aria-label="Permalink for Section 1."></a></div><p><em>Dit onderdeel is niet-normatief.</em></p>
@@ -1537,6 +1537,683 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 </style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M48.55859375,47.77154964846383L44.354817708333336,52.64295804038653C40.151041666666664,57.514366432309224,31.743489583333332,67.25718321615462,27.539713541666668,76.29525827474397C23.3359375,85.33333333333333,23.3359375,93.66666666666667,23.3359375,97.83333333333333L23.3359375,102" marker-end="url(#arrowhead31)" style="fill:none"></path><defs><marker id="arrowhead31" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-A LE-C" id="L-A-C" style="opacity: 1;"><path class="path" d="M79.23046875,47.77154964846383L83.43424479166667,52.64295804038653C87.63802083333333,57.514366432309224,96.04557291666667,67.25718321615462,100.24934895833333,76.29525827474397C104.453125,85.33333333333333,104.453125,93.66666666666667,104.453125,97.83333333333333L104.453125,102" marker-end="url(#arrowhead32)" style="fill:none"></path><defs><marker id="arrowhead32" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-D" id="L-B-D" style="opacity: 1;"><path class="path" d="M23.3359375,146L23.3359375,150.16666666666666C23.3359375,154.33333333333334,23.3359375,162.66666666666666,27.465494791666668,171.6187357539568C31.595052083333332,180.57080484124694,39.854166666666664,190.14160968249382,43.983723958333336,194.92701210311728L48.11328125,199.71241452374073" marker-end="url(#arrowhead33)" style="fill:none"></path><defs><marker id="arrowhead33" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M104.453125,146L104.453125,150.16666666666666C104.453125,154.33333333333334,104.453125,162.66666666666666,100.32356770833333,171.6187357539568C96.19401041666667,180.57080484124694,87.93489583333333,190.14160968249382,83.80533854166667,194.92701210311728L79.67578125,199.71241452374073" marker-end="url(#arrowhead34)" style="fill:none"></path><defs><marker id="arrowhead34" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-B" class="edgeLabel L-LS-A' L-LE-B"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-C" class="edgeLabel L-LS-A' L-LE-C"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-B-D" class="edgeLabel L-LS-B' L-LE-D"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-D" class="edgeLabel L-LS-C' L-LE-D"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-24" transform="translate(63.89453125,30)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">A</div></foreignObject></g></g></g><g class="node default" id="flowchart-B-25" transform="translate(23.3359375,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.3359375" y="-22" width="30.671875" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.3359375,-12)"><foreignObject width="10.671875" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">B</div></foreignObject></g></g></g><g class="node default" id="flowchart-C-27" transform="translate(104.453125,124)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">C</div></foreignObject></g></g></g><g class="node default" id="flowchart-D-29" transform="translate(63.89453125,218)" style="opacity: 1;"><rect rx="0" ry="0" x="-15.78125" y="-22" width="31.5625" height="44" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-5.78125,-12)"><foreignObject width="11.5625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">D</div></foreignObject></g></g></g></g></g></g></svg></pre>
 <figcaption><a class="self-link" href="#Mermaidvoorbeeld">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Mermaid voorbeeld</span></figcaption>
 </figure></section>
+<section id="informatiemodel-cim-funderingen"><div class="header-wrapper"><h2 id="x4-informatiemodel-cim-funderingen"><bdi class="secno">4. </bdi>Informatiemodel CIM - Funderingen</h2><a class="self-link" href="#informatiemodel-cim-funderingen" aria-label="Permalink for Section 4."></a></div>
+<section id="view-lv-woz"><div class="header-wrapper"><h3 id="x4-1-view-lv-woz"><bdi class="secno">4.1 </bdi>View LV-WOZ</h3><a class="self-link" href="#view-lv-woz" aria-label="Permalink for Section 4.1"></a></div>
+<p>
+      </p><figure id="fig-view-lv-woz">
+        <img src="data/model/lv-woz/package-view.png" alt="View LV-WOZ">
+        <figcaption><a class="self-link" href="#fig-view-lv-woz">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">View LV-WOZ</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="domein-fundering"><div class="header-wrapper"><h3 id="x4-2-domein-fundering"><bdi class="secno">4.2 </bdi>Domein Fundering</h3><a class="self-link" href="#domein-fundering" aria-label="Permalink for Section 4.2"></a></div>
+<p>
+      </p><figure id="fig-domein-fundering">
+        <img src="data/model/fundering/package-view.png" alt="Domein Fundering">
+        <figcaption><a class="self-link" href="#fig-domein-fundering">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">Domein Fundering</span></figcaption>
+      </figure>
+    <p></p>
+<section id="objecttypen"><div class="header-wrapper"><h4 id="x4-2-1-objecttypen"><bdi class="secno">4.2.1 </bdi>Objecttypen</h4><a class="self-link" href="#objecttypen" aria-label="Permalink for Section 4.2.1"></a></div>
+<section id="pand"><div class="header-wrapper"><h5 id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand"><bdi class="secno">4.2.1.1 </bdi>Pand</h5><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand" aria-label="Permalink for Section 4.2.1.1"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Pand</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table><section class="notoc"><div class="header-wrapper"><h6 id="overzicht-generalisaties">Overzicht generalisaties</h6><a class="self-link" href="#overzicht-generalisaties" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand (Conceptueel model IBRO)</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section><section class="notoc"><div class="header-wrapper"><h6 id="overzicht-attribuutsoorten">Overzicht attribuutsoorten</h6><a class="self-link" href="#overzicht-attribuutsoorten" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_bag_id">BAG-ID</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_geo_test">geo-test</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_waardelijsten_codelijst_void_reason_value">VoidReasonValue (NEN 3610:2022 - Basismodel geo-informatie)</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section><section class="notoc"><div class="header-wrapper"><h6 id="overzicht-gegevensgroepen">Overzicht gegevensgroepen</h6><a class="self-link" href="#overzicht-gegevensgroepen" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens">Funderingsgegevens</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens">Funderingsgegevens</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section><section class="notoc"><div class="header-wrapper"><h6 id="details-attribuutsoorten">Details attribuutsoorten</h6><a class="self-link" href="#details-attribuutsoorten" aria-label="Permalink for this Section"></a></div>
+
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens"><div class="header-wrapper"><h6 id="funderingsgegevens-0">Funderingsgegevens</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand.Funderingsgegevens</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingsgegevens</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+</section><section class="notoc"><div class="header-wrapper"><h6 id="details-gegevensgroepen">Details gegevensgroepen</h6><a class="self-link" href="#details-gegevensgroepen" aria-label="Permalink for this Section"></a></div>
+
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens"><div class="header-wrapper"><h6 id="funderingsgegevens-1">Funderingsgegevens</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_gegevensgroep_funderingsgegevens" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand.Funderingsgegevens</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingsgegevens</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+</section></section></section><section id="gegevensgroeptypen"><div class="header-wrapper"><h4 id="x4-2-2-gegevensgroeptypen"><bdi class="secno">4.2.2 </bdi>Gegevensgroeptypen</h4><a class="self-link" href="#gegevensgroeptypen" aria-label="Permalink for Section 4.2.2"></a></div>
+<section id="funderingsgegevens"><div class="header-wrapper"><h5 id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens"><bdi class="secno">4.2.2.1 </bdi>Funderingsgegevens</h5><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens" aria-label="Permalink for Section 4.2.2.1"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingsgegevens</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table><section class="notoc"><div class="header-wrapper"><h6 id="overzicht-attribuutsoorten-0">Overzicht attribuutsoorten</h6><a class="self-link" href="#overzicht-attribuutsoorten-0" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aanlegniveau">Aanlegniveau </a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstype">Funderingstype</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype">Funderingstype</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_oorspronkelijke_levensduur">Oorspronkelijke Levensduur</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstekening_bouwtekening_">Funderingstekening/bouwtekening?</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> URI</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingsdiepte">Funderingsdiepte</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Decimal</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aantal_palen">aantalPalen</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section><section class="notoc"><div class="header-wrapper"><h6 id="details-attribuutsoorten-0">Details attribuutsoorten</h6><a class="self-link" href="#details-attribuutsoorten-0" aria-label="Permalink for this Section"></a></div>
+
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aanlegniveau"><div class="header-wrapper"><h6 id="aanlegniveau">Aanlegniveau </h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aanlegniveau" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.Aanlegniveau%20</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Aanlegniveau </td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstype"><div class="header-wrapper"><h6 id="funderingstype-0">Funderingstype</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstype" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.Funderingstype</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingstype</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_oorspronkelijke_levensduur"><div class="header-wrapper"><h6 id="oorspronkelijke-levensduur">Oorspronkelijke Levensduur</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_oorspronkelijke_levensduur" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.Oorspronkelijke%20Levensduur</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Oorspronkelijke Levensduur</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstekening_bouwtekening_"><div class="header-wrapper"><h6 id="funderingstekening-bouwtekening">Funderingstekening/bouwtekening?</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingstekening_bouwtekening_" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.Funderingstekening%2Fbouwtekening%3F</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingstekening/bouwtekening?</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingsdiepte"><div class="header-wrapper"><h6 id="funderingsdiepte">Funderingsdiepte</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_funderingsdiepte" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.Funderingsdiepte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingsdiepte</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aantal_palen"><div class="header-wrapper"><h6 id="aantalpalen">aantalPalen</h6><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_gegevensgroeptype_funderingsgegevens_attribuutsoort_aantal_palen" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingsgegevens.aantalPalen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>aantalPalen</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table>
+</section>
+</section></section></section><section id="enumeraties"><div class="header-wrapper"><h4 id="x4-2-3-enumeraties"><bdi class="secno">4.2.3 </bdi>Enumeraties</h4><a class="self-link" href="#enumeraties" aria-label="Permalink for Section 4.2.3"></a></div>
+<section id="funderingstype"><div class="header-wrapper"><h5 id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype"><bdi class="secno">4.2.3.1 </bdi>Funderingstype</h5><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype" aria-label="Permalink for Section 4.2.3.1"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Funderingstype</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Funderingstype</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table><section class="notoc"><div class="header-wrapper"><h6 id="overzicht-waarden">Overzicht waarden</h6><a class="self-link" href="#overzicht-waarden" aria-label="Permalink for this Section"></a></div>
+
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 75%"></colgroup>
+<tbody>
+<tr>
+  <th>Waarde</th>
+  <th>Definitie</th>
+</tr>
+<tr>
+<td>
+Diepe fundering</td>
+<td>
+</td>
+</tr><tr>
+<td>
+Ondiepe fundering</td>
+<td>
+</td>
+</tr></tbody>
+</table></section></section></section><section id="codelijsten"><div class="header-wrapper"><h4 id="x4-2-4-codelijsten"><bdi class="secno">4.2.4 </bdi>Codelijsten</h4><a class="self-link" href="#codelijsten" aria-label="Permalink for Section 4.2.4"></a></div>
+<section id="funderingtype"><div class="header-wrapper"><h5 id="informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_fundering_type"><bdi class="secno">4.2.4.1 </bdi>funderingType</h5><a class="self-link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_fundering_type" aria-label="Permalink for Section 4.2.4.1"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:funderingType</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>funderingType</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table></section></section></section><section id="domein-omgeving"><div class="header-wrapper"><h3 id="x4-3-domein-omgeving"><bdi class="secno">4.3 </bdi>Domein Omgeving</h3><a class="self-link" href="#domein-omgeving" aria-label="Permalink for Section 4.3"></a></div>
+<p>
+      </p><figure id="fig-domein-omgeving">
+        <img src="data/model/omgeving/package-view.png" alt="Domein Omgeving">
+        <figcaption><a class="self-link" href="#fig-domein-omgeving">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Domein Omgeving</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="domein-risico"><div class="header-wrapper"><h3 id="x4-4-domein-risico"><bdi class="secno">4.4 </bdi>Domein Risico</h3><a class="self-link" href="#domein-risico" aria-label="Permalink for Section 4.4"></a></div>
+<p>
+      </p><figure id="fig-domein-risico">
+        <img src="data/model/risico/package-view.png" alt="Domein Risico">
+        <figcaption><a class="self-link" href="#fig-domein-risico">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Domein Risico</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="extern-bag"><div class="header-wrapper"><h3 id="x4-5-extern-bag"><bdi class="secno">4.5 </bdi>Extern BAG</h3><a class="self-link" href="#extern-bag" aria-label="Permalink for Section 4.5"></a></div>
+<p>
+      </p><figure id="fig-extern-bag">
+        <img src="data/model/bag/package-view.png" alt="Extern BAG">
+        <figcaption><a class="self-link" href="#fig-extern-bag">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title">Extern BAG</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="extern-bro"><div class="header-wrapper"><h3 id="x4-6-extern-bro"><bdi class="secno">4.6 </bdi>Extern BRO</h3><a class="self-link" href="#extern-bro" aria-label="Permalink for Section 4.6"></a></div>
+<p>
+      </p><figure id="fig-extern-bro">
+        <img src="data/model/bro/package-view.png" alt="Extern BRO">
+        <figcaption><a class="self-link" href="#fig-extern-bro">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title">Extern BRO</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="extern-nen3610"><div class="header-wrapper"><h3 id="x4-7-extern-nen3610"><bdi class="secno">4.7 </bdi>Extern NEN3610</h3><a class="self-link" href="#extern-nen3610" aria-label="Permalink for Section 4.7"></a></div>
+<p>
+      </p><figure id="fig-extern-nen3610">
+        <img src="data/model/nen3610/package-view.png" alt="Extern NEN3610">
+        <figcaption><a class="self-link" href="#fig-extern-nen3610">Figuur <bdi class="figno">9</bdi></a> <span class="fig-title">Extern NEN3610</span></figcaption>
+      </figure>
+    <p></p>
+<section id="objecttypen-0"><div class="header-wrapper"><h4 id="x4-7-1-objecttypen"><bdi class="secno">4.7.1 </bdi>Objecttypen</h4><a class="self-link" href="#objecttypen-0" aria-label="Permalink for Section 4.7.1"></a></div>
+<section id="geoobject"><div class="header-wrapper"><h5 id="informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object"><bdi class="secno">4.7.1.1 </bdi>GeoObject</h5><a class="self-link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object" aria-label="Permalink for Section 4.7.1.1"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/nen3610#GeoObject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GeoObject</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Geo-object</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>20220601</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table></section><section id="reeelobject"><div class="header-wrapper"><h5 id="informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object"><bdi class="secno">4.7.1.2 </bdi>ReeelObject</h5><a class="self-link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object" aria-label="Permalink for Section 4.7.1.2"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/nen3610#ReeelObject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ReeelObject</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Reëel object</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geo-object dat zich geheel materieel manifesteert.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>20220601</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table></section><section id="constructie"><div class="header-wrapper"><h5 id="informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie"><bdi class="secno">4.7.1.3 </bdi>Constructie</h5><a class="self-link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie" aria-label="Permalink for Section 4.7.1.3"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/nen3610#Constructie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Constructie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouwd object dat direct of indirect met de bodem is verbonden en bedoeld is om ter plaatse te functioneren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>20220601</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table></section><section id="gebouw"><div class="header-wrapper"><h5 id="informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw"><bdi class="secno">4.7.1.4 </bdi>Gebouw</h5><a class="self-link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw" aria-label="Permalink for Section 4.7.1.4"></a></div><table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tbody><tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/nen3610#Gebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gebouw</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Gebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Overdekte en geheel of gedeeltelijk met wanden omsloten constructie bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>nen 3610</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>20220601</td>
+</tr>
+</tbody><tbody>
+</tbody>
+</table></section></section></section><section id="extern-brk"><div class="header-wrapper"><h3 id="x4-8-extern-brk"><bdi class="secno">4.8 </bdi>Extern BRK</h3><a class="self-link" href="#extern-brk" aria-label="Permalink for Section 4.8"></a></div>
+<p>
+      </p><figure id="fig-extern-brk">
+        <img src="data/model/brk/package-view.png" alt="Extern BRK">
+        <figcaption><a class="self-link" href="#fig-extern-brk">Figuur <bdi class="figno">10</bdi></a> <span class="fig-title">Extern BRK</span></figcaption>
+      </figure>
+    <p></p>
+</section><section id="extern-woz"><div class="header-wrapper"><h3 id="x4-9-extern-woz"><bdi class="secno">4.9 </bdi>Extern WOZ</h3><a class="self-link" href="#extern-woz" aria-label="Permalink for Section 4.9"></a></div>
+<p>
+      </p><figure id="fig-extern-woz">
+        <img src="data/model/woz/package-view.png" alt="Extern WOZ">
+        <figcaption><a class="self-link" href="#fig-extern-woz">Figuur <bdi class="figno">11</bdi></a> <span class="fig-title">Extern WOZ</span></figcaption>
+      </figure>
+    <p></p>
+</section></section>
 
  
 
@@ -1546,7 +2223,7 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
 
 
 
-<section id="conformance"><div class="header-wrapper"><h2 id="x4-conformiteit"><bdi class="secno">4. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 4."></a></div><p>Naast onderdelen die als niet-normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet-normatief. Verder is alles in dit document normatief.</p>
+<section id="conformance"><div class="header-wrapper"><h2 id="x5-conformiteit"><bdi class="secno">5. </bdi>Conformiteit</h2><a class="self-link" href="#conformance" aria-label="Permalink for Section 5."></a></div><p>Naast onderdelen die als niet-normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet-normatief. Verder is alles in dit document normatief.</p>
 <section id="tof">
 <section id="index" class="appendix"><div class="header-wrapper"><h4 id="index-0">Index</h4><a class="self-link" href="#index" aria-label="Permalink for this Appendix"></a></div>
 
@@ -1569,6 +2246,24 @@ Dit hoofdstuk is toegevoegd met <code>class="informative"</code> in <code>config
     <a class="tocxref" href="#fig-onderschrift"><span class="self-link">Figuur <bdi class="figno">1</bdi></span> <span class="fig-title">Onderschrift</span></a>
   </li><li class="tofline">
     <a class="tocxref" href="#Mermaidvoorbeeld"><span class="self-link">Figuur <bdi class="figno">2</bdi></span> <span class="fig-title">Mermaid voorbeeld</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-view-lv-woz"><span class="self-link">Figuur <bdi class="figno">3</bdi></span> <span class="fig-title">View LV-WOZ</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-domein-fundering"><span class="self-link">Figuur <bdi class="figno">4</bdi></span> <span class="fig-title">Domein Fundering</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-domein-omgeving"><span class="self-link">Figuur <bdi class="figno">5</bdi></span> <span class="fig-title">Domein Omgeving</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-domein-risico"><span class="self-link">Figuur <bdi class="figno">6</bdi></span> <span class="fig-title">Domein Risico</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-extern-bag"><span class="self-link">Figuur <bdi class="figno">7</bdi></span> <span class="fig-title">Extern BAG</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-extern-bro"><span class="self-link">Figuur <bdi class="figno">8</bdi></span> <span class="fig-title">Extern BRO</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-extern-nen3610"><span class="self-link">Figuur <bdi class="figno">9</bdi></span> <span class="fig-title">Extern NEN3610</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-extern-brk"><span class="self-link">Figuur <bdi class="figno">10</bdi></span> <span class="fig-title">Extern BRK</span></a>
+  </li><li class="tofline">
+    <a class="tocxref" href="#fig-extern-woz"><span class="self-link">Figuur <bdi class="figno">11</bdi></span> <span class="fig-title">Extern WOZ</span></a>
   </li>
       </ul></section></section><section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-referenties"><bdi class="secno">A. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="normatieve-referenties">
     <div class="header-wrapper"><h3 id="a-1-normatieve-referenties"><bdi class="secno">A.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Appendix A.1"></a></div>
@@ -1831,4 +2526,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Handreiking - Document</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Informatiemodel - Werkversie</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
