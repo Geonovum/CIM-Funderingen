@@ -17,39 +17,22 @@
 <th>Naam</th>
 <td>Pand</td>
 </tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
 <tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand.generalisatie-Pand</td>
+<th>Herkomst definitie</th>
+<td>Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen</td>
 </tr>
 <tr>
-<th>Subtype</th>
+<th>Begrip</th>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">Pand</a>
-</td>
+<a href="https://definities.geostandaarden.nl/fundering/id/begrippenkader/Pand">https://definities.geostandaarden.nl/fundering/id/begrippenkader/Pand</a></td>
 </tr>
 <tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand (Conceptueel model IBRO)</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
+<th>Datum opname</th>
+<td>2026-08-11</td>
 </tr>
 <tbody>
 </tbody>
 </table>
-</section>
 
 <section class="notoc">
 <h5>Overzicht attribuutsoorten</h5>

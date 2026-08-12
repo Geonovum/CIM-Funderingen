@@ -1,7 +1,200 @@
 # Informatiemodel CIM - Funderingen
-## View LV-WOZ
+## View Gebouwtypologie
 
-![View LV-WOZ](data/model/lv-woz/package-view.png "View LV-WOZ")
+![View Gebouwtypologie](data/model/gebouwtypologie/package-view.png "View Gebouwtypologie")
+
+### Objecttypen
+
+#### Pand {#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Gebouwtypologie:Pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Pand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Gebouwtypologie:Pand.generalisatie-Gebouw</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">Gebouw (NEN 3610:2022 - Basismodel geo-informatie)</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht Externe koppelingen</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand_externe_koppeling_is_gelijk_aan">isGelijkAan</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imbag_domein_objecten_objecttype_pand">Pand (cimbag_lv_dummy)</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand_externe_koppeling_heeft_pand">heeftPand</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imwoz_domein_woz_objecttype_woz_object">WOZObject (imwoz_dummy)</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Details Externe koppelingen</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand_externe_koppeling_is_gelijk_aan">
+<h6>isGelijkAan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Gebouwtypologie:Pand.isGelijkAan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isGelijkAan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Unidirectioneel</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Aggregatietype</th>
+<td>Geen</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Doel</th>
+<td>
+<a class="link" href="#informatiemodel_imbag_domein_objecten_objecttype_pand">Pand (cimbag_lv_dummy)</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand_externe_koppeling_heeft_pand">
+<h6>heeftPand</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:Gebouwtypologie:Pand.heeftPand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftPand</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Unidirectioneel</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Aggregatietype</th>
+<td>Geen</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Doel</th>
+<td>
+<a class="link" href="#informatiemodel_imwoz_domein_woz_objecttype_woz_object">WOZObject (imwoz_dummy)</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 ## Domein Fundering
 
@@ -22,39 +215,22 @@
 <th>Naam</th>
 <td>Pand</td>
 </tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
 <tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:Fundering:Pand.generalisatie-Pand</td>
+<th>Herkomst definitie</th>
+<td>Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen</td>
 </tr>
 <tr>
-<th>Subtype</th>
+<th>Begrip</th>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">Pand</a>
-</td>
+<a href="https://definities.geostandaarden.nl/fundering/id/begrippenkader/Pand">https://definities.geostandaarden.nl/fundering/id/begrippenkader/Pand</a></td>
 </tr>
 <tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand (Conceptueel model IBRO)</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
+<th>Datum opname</th>
+<td>2026-08-11</td>
 </tr>
 <tbody>
 </tbody>
 </table>
-</section>
 
 <section class="notoc">
 <h5>Overzicht attribuutsoorten</h5>
@@ -539,6 +715,77 @@ Ondiepe fundering</td>
 ## Extern BAG
 
 ![Extern BAG](data/model/bag/package-view.png "Extern BAG")
+
+### Objecttypen
+
+#### Pand {#informatiemodel_imbag_domein_objecten_objecttype_pand}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.kadaster.nl/imbag/Pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Pand</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>BAG</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+#### Verblijfsobject {#informatiemodel_imbag_domein_objecten_objecttype_verblijfsobject}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.kadaster.nl/imbag/Verblijfsobject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verblijfsobject</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>BAG</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+### Enumeraties
+
+#### TypeAdresseerbaarObject {#informatiemodel_imbag_domein_objecten_enumeratie_type_adresseerbaar_object}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.kadaster.nl/imbag/TypeAdresseerbaarObject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>TypeAdresseerbaarObject</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 
 ## Extern BRO
 
