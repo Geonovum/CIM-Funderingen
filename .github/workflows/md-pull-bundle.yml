@@ -1,4 +1,4 @@
-name: Pull ModelDesk bundle
+name: Pull ModelDesk bundle (ReSpec)
 
 on:
   workflow_dispatch:
@@ -47,6 +47,6 @@ jobs:
             echo "Bundle is already up to date; nothing to commit."
             exit 0
           fi
-          git commit -m "Pull ModelDesk bundle ${{ inputs.version || '(live HEAD)' }}" \
+          git commit -m "Pull ModelDesk bundle ${{ inputs.version || '(latest)' }}" \
             --author "${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>"
           git push
