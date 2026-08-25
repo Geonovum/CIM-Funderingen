@@ -16,7 +16,7 @@
 </table>
 
 <section class="notoc">
-<h3>Overzicht waarden</h3>
+<h3>Overzicht waarden</h3>    
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 75%"></colgroup>
@@ -27,12 +27,57 @@
 </tr>
 <tr>
 <td>
-Diepe fundering</td>
+Betonpalen</td>
 <td>
 </td>
 <tr>
 <td>
-Ondiepe fundering</td>
+Staalbuispalen</td>
+<td>
+</td>
+<tr>
+<td>
+Houten palen met betonkop</td>
+<td>
+</td>
+<tr>
+<td>
+Houten palen met betonoplanger</td>
+<td>
+</td>
+<tr>
+<td>
+Houten palen</td>
+<td>
+</td>
+<tr>
+<td>
+Getrapte fundering</td>
+<td>
+</td>
+<tr>
+<td>
+Strokenfundering</td>
+<td>
+</td>
+<tr>
+<td>
+Funderingsplaat</td>
+<td>
+</td>
+<tr>
+<td>
+Fundering met vorstrand</td>
+<td>
+</td>
+<tr>
+<td>
+Poerenfundering</td>
+<td>
+</td>
+<tr>
+<td>
+Slietenfundering</td>
 <td>
 </td>
 </tbody>

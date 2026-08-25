@@ -29,7 +29,7 @@
 </table>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>
+<h3>Overzicht attribuutsoorten</h3>    
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -71,7 +71,7 @@
 </section>
 
 <section class="notoc">
-<h3>Overzicht gegevensgroepen</h3>
+<h3>Overzicht gegevensgroepen</h3>    
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>

@@ -1,0 +1,191 @@
+## Rotterdamse paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rotterdamse%20paalfundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rotterdamse paalfundering</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rotterdamse%20paalfundering.generalisatie-Houten%20paalfundering</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering">Rotterdamse paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering">Houten paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h3>Overzicht attribuutsoorten</h3>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_schuifhout">materiaalSchuifhout</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_enumeratie_materiaal">Materiaal</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_langshout">materiaalLangshout</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_enumeratie_materiaal">Materiaal</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_kesp">materiaalKesp</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_enumeratie_materiaal">Materiaal</a>
+</td>
+<td>
+0...1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h3>Details attribuutsoorten</h3>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_schuifhout">
+<h4>materiaalSchuifhout</h4>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rotterdamse%20paalfundering.materiaalSchuifhout</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>materiaalSchuifhout</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_langshout">
+<h4>materiaalLangshout</h4>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rotterdamse%20paalfundering.materiaalLangshout</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>materiaalLangshout</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_kesp">
+<h4>materiaalKesp</h4>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rotterdamse%20paalfundering.materiaalKesp</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>materiaalKesp</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0...1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>

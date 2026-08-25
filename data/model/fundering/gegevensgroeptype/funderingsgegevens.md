@@ -16,7 +16,7 @@
 </table>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>
+<h3>Overzicht attribuutsoorten</h3>    
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -48,7 +48,7 @@
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingstype">Funderingstype</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_funderingscategorie">Funderingscategorie</a>
 </td>
 <td>
 1</td>
