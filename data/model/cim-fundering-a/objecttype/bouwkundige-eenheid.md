@@ -1,15 +1,15 @@
-## Funderingseenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid}
+## Bouwkundige eenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Funderingseenheid</td>
+<td>Bouwkundige eenheid</td>
 </tr>
 <tbody>
 </tbody>
@@ -31,7 +31,7 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_attribuutsoort_naam">naam</a>
 </td>
 <td>
 </td>
@@ -61,7 +61,7 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_omvat">omvat</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_relatiesoort_omvat">omvat</a>
 </td>
 <td>
 </td>
@@ -77,14 +77,14 @@
 
 <section class="notoc">
 <h3>Details attribuutsoorten</h3>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_attribuutsoort_naam">
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_attribuutsoort_naam">
 <h4>naam</h4>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid.naam</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid.naam</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -110,14 +110,14 @@
 
 <section class="notoc">
 <h3>Details Relatiesoorten</h3>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_omvat">
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_relatiesoort_omvat">
 <h4>omvat</h4>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid.omvat</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid.omvat</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -146,7 +146,7 @@
 <tr>
 <th>Bron</th>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">Funderingseenheid</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid">Bouwkundige eenheid</a>
 </td>
 </tr>
 <tr>

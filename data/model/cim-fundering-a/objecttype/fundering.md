@@ -120,7 +120,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_fundeert">fundeert</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt">draagt</a>
 </td>
 <td>
 </td>
@@ -129,6 +129,18 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </td>
 <td>
 1..*</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt_panden_van">draagtPandenVan</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">Funderingseenheid</a>
+</td>
+<td>
+1</td>
 </tr>
 </tbody>
 </table>
@@ -236,18 +248,18 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h3>Details Relatiesoorten</h3>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_fundeert">
-<h4>fundeert</h4>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt">
+<h4>draagt</h4>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.fundeert</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.draagt</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>fundeert</td>
+<td>draagt</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -279,6 +291,55 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <th>Doel</th>
 <td>
 <a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt_panden_van">
+<h4>draagtPandenVan</h4>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.draagtPandenVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>draagtPandenVan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Unidirectioneel</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Aggregatietype</th>
+<td>Geen</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
+</td>
+</tr>
+<tr>
+<th>Doel</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">Funderingseenheid</a>
 </td>
 </tr>
 <tbody>

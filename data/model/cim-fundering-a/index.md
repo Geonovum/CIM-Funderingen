@@ -238,7 +238,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_fundeert">fundeert</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt">draagt</a>
 </td>
 <td>
 </td>
@@ -247,6 +247,18 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </td>
 <td>
 1..*</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt_panden_van">draagtPandenVan</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">Funderingseenheid</a>
+</td>
+<td>
+1</td>
 </tr>
 </tbody>
 </table>
@@ -354,18 +366,18 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_fundeert">
-<h6>fundeert</h6>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt">
+<h6>draagt</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.fundeert</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.draagt</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>fundeert</td>
+<td>draagt</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -397,6 +409,55 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <th>Doel</th>
 <td>
 <a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_relatiesoort_draagt_panden_van">
+<h6>draagtPandenVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Fundering.draagtPandenVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>draagtPandenVan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Unidirectioneel</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Aggregatietype</th>
+<td>Geen</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
+</td>
+</tr>
+<tr>
+<th>Doel</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">Funderingseenheid</a>
 </td>
 </tr>
 <tbody>
@@ -2269,6 +2330,36 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 
 <section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_attribuutsoort_naam">naam</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
 <h5>Overzicht Relatiesoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
@@ -2284,12 +2375,12 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_bestaat_uit">bestaatUit</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_omvat">omvat</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
 </td>
 <td>
 1..*</td>
@@ -2299,23 +2390,56 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_bestaat_uit">
-<h6>bestaatUit</h6>
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_attribuutsoort_naam">
+<h6>naam</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid.bestaatUit</td>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid.naam</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>bestaatUit</td>
+<td>naam</td>
 </tr>
 <tr>
 <th>Identificerend</th>
 <td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid_relatiesoort_omvat">
+<h6>omvat</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Funderingseenheid.omvat</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>omvat</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Ja</td>
 </tr>
 <tr>
 <th>Kardinaliteit</th>
@@ -2331,7 +2455,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </tr>
 <tr>
 <th>Aggregatietype</th>
-<td>Compositie</td>
+<td>Geen</td>
 </tr>
 <tr>
 <th>Bron</th>
@@ -2342,7 +2466,170 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <tr>
 <th>Doel</th>
 <td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+#### Bouwkundige eenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bouwkundige eenheid</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_attribuutsoort_naam">naam</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_relatiesoort_omvat">omvat</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+<td>
+1..*</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid.naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_relatiesoort_omvat">
+<h6>omvat</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Bouwkundige%20eenheid.omvat</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>omvat</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Unidirectioneel</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Aggregatietype</th>
+<td>Geen</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid">Bouwkundige eenheid</a>
+</td>
+</tr>
+<tr>
+<th>Doel</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
 </td>
 </tr>
 <tbody>
