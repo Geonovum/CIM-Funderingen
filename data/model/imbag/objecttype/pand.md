@@ -1,4 +1,5 @@
-## Pand {#informatiemodel_imbag_domein_objecten_objecttype_pand}
+<section id="informatiemodel_imbag_domein_objecten_objecttype_pand">
+<h2>Pand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -30,3 +31,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

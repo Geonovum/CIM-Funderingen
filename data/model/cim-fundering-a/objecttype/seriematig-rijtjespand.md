@@ -1,4 +1,5 @@
-## Seriematig rijtjespand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">
+<h2>Seriematig rijtjespand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

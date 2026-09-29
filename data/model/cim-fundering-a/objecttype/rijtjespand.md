@@ -1,4 +1,5 @@
-## Rijtjespand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">
+<h2>Rijtjespand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,105 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">
+<h3>Niet-seriematig rijtjespand</h3>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Niet-seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">Niet-seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">
+<h3>Seriematig rijtjespand</h3>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">Seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
 </section>

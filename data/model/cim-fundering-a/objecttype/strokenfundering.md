@@ -1,4 +1,5 @@
-## Strokenfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_strokenfundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_strokenfundering">
+<h2>Strokenfundering</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -46,7 +47,7 @@
 </section>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -76,9 +77,9 @@
 </section>
 
 <section class="notoc">
-<h3>Details attribuutsoorten</h3>
+<h5>Details attribuutsoorten</h5>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_strokenfundering_attribuutsoort_vorstrand">
-<h4>vorstrand</h4>
+<h6>vorstrand</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -106,4 +107,6 @@
 </tbody>
 </table>
 </section>
+</section>
+
 </section>

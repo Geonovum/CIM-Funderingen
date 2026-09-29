@@ -1,4 +1,5 @@
-## Appartementspand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">
+<h2>Appartementspand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

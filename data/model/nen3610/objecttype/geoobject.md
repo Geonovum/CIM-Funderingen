@@ -1,4 +1,5 @@
-## GeoObject {#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object}
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
+<h2>GeoObject</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -34,3 +35,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

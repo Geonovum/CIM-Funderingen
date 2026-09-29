@@ -1,10 +1,11 @@
 ## View Gebouwtypologie
 
-![View Gebouwtypologie](data/model/gebouwtypologie/package-view.png "View Gebouwtypologie")
+![mim:View Gebouwtypologie](data/model/gebouwtypologie/package-view.png "mim:View Gebouwtypologie")
 
 ### Objecttypen
 
-#### Pand {#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand}
+<section id="informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand">
+<h4>Pand</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -49,4 +50,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

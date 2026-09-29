@@ -1,10 +1,11 @@
 ## Extern NEN3610
 
-![Extern NEN3610](data/model/nen3610/package-view.png "Extern NEN3610")
+![mim:Extern NEN3610](data/model/nen3610/package-view.png "mim:Extern NEN3610")
 
 ### Objecttypen
 
-#### GeoObject {#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object}
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
+<h4>GeoObject</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -41,7 +42,10 @@
 </tbody>
 </table>
 
-#### ReeelObject {#informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object}
+</section>
+
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object">
+<h4>ReeelObject</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -78,7 +82,10 @@
 </tbody>
 </table>
 
-#### Constructie {#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie}
+</section>
+
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie">
+<h4>Constructie</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -111,7 +118,10 @@
 </tbody>
 </table>
 
-#### Gebouw {#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw}
+</section>
+
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">
+<h4>Gebouw</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -147,3 +157,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

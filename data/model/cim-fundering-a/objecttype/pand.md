@@ -1,4 +1,5 @@
-## Pand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">
+<h2>Pand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -46,7 +47,7 @@
 </section>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -76,9 +77,9 @@
 </section>
 
 <section class="notoc">
-<h3>Details attribuutsoorten</h3>
+<h5>Details attribuutsoorten</h5>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand_attribuutsoort_bouwtekening">
-<h4>bouwtekening</h4>
+<h6>bouwtekening</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -105,6 +106,355 @@
 <tbody>
 </tbody>
 </table>
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">
+<h3>Appartementspand</h3>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Appartementspand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">Appartementspand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">
+<h3>Vrijstaand pand</h3>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vrijstaand pand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">
+<h4>Twee-onder-een-kappand</h4>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Twee-onder-een-kappand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand.generalisatie-Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">Twee-onder-een-kappand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand">
+<h4>Alleenstaand pand</h4>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Alleenstaand pand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand.generalisatie-Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand">Alleenstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">
+<h3>Rijtjespand</h3>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">
+<h4>Niet-seriematig rijtjespand</h4>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Niet-seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">Niet-seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">
+<h4>Seriematig rijtjespand</h4>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">Seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
 </section>
 </section>
 

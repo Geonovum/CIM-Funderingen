@@ -1,4 +1,5 @@
-## Gebouw {#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw}
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">
+<h2>Gebouw</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -34,3 +35,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

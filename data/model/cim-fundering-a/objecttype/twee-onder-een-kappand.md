@@ -1,4 +1,5 @@
-## Twee-onder-een-kappand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">
+<h2>Twee-onder-een-kappand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

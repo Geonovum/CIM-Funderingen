@@ -1,4 +1,5 @@
-## Pand {#informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand}
+<section id="informatiemodel_informatiemodel_funderingen_view_gebouwtypologie_objecttype_pand">
+<h2>Pand</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

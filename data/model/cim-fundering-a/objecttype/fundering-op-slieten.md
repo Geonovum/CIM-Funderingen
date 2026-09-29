@@ -1,4 +1,5 @@
-## Fundering op slieten {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_op_slieten}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_op_slieten">
+<h2>Fundering op slieten</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43,4 +44,6 @@
 <tbody>
 </tbody>
 </table>
+</section>
+
 </section>

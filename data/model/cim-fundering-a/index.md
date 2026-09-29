@@ -1,10 +1,11 @@
 ## Domein CIM Fundering A
 
-![Domein CIM Fundering A](data/model/cim-fundering-a/package-view.png "Domein CIM Fundering A")
+![mim:Domein CIM Fundering A](data/model/cim-fundering-a/package-view.png "mim:Domein CIM Fundering A")
 
 ### Objecttypen
 
-#### Pand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">
+<h4>Pand</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -52,7 +53,7 @@
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -114,9 +115,359 @@
 </section>
 </section>
 
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">
+<h5>Appartementspand</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Appartementspand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">Appartementspand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">
+<h5>Vrijstaand pand</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vrijstaand pand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">
+<h6>Twee-onder-een-kappand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Twee-onder-een-kappand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand.generalisatie-Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">Twee-onder-een-kappand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand">
+<h6>Alleenstaand pand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Alleenstaand pand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand.generalisatie-Vrijstaand%20pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand">Alleenstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">
+<h5>Rijtjespand</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand.generalisatie-Pand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">
+<h6>Niet-seriematig rijtjespand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Niet-seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">Niet-seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">
+<h6>Seriematig rijtjespand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Seriematig rijtjespand</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">Seriematig rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+</section>
+</section>
+
 ![Pandtypologie](data/model/cim-fundering-a/objecttype/pand.pandtypologie.png "Pandtypologie")
 
-#### Fundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">
+<h4>Fundering</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -169,7 +520,7 @@
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -466,9 +817,8 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-![Funderingstype](data/model/cim-fundering-a/objecttype/fundering.funderingstype.png "Funderingstype")
-
-#### Diepe Fundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_diepe_fundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_diepe_fundering">
+<h5>Diepe Fundering</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -480,6 +830,15 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <tr>
 <th>Naam</th>
 <td>Diepe Fundering</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fundering in diepere lagen, ontleent draagkracht aan wrijving langs de schacht en weerstand van de paalpunt</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/fundering/begrip/diepe_fundering">https://definities.geostandaarden.nl/fundering/begrip/diepe_fundering</a></td>
 </tr>
 <tbody>
 </tbody>
@@ -515,158 +874,8 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Ondiepe Fundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ondiepe Fundering</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.generalisatie-Fundering</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering">Ondiepe Fundering</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 18%"></colgroup>
-<colgroup style="width: 7%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_materiaal_ondiepe_fundering">materiaalOndiepeFundering</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_enumeratie_materiaal">Materiaal</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_afmeting_ondiepe_fundering">afmetingOndiepeFundering</a>
-</td>
-<td>
-</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Object"> GM_Object</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_materiaal_ondiepe_fundering">
-<h6>materiaalOndiepeFundering</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.materiaalOndiepeFundering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>materiaalOndiepeFundering</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_afmeting_ondiepe_fundering">
-<h6>afmetingOndiepeFundering</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.afmetingOndiepeFundering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>afmetingOndiepeFundering</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-#### Paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering">
+<h6>Paalfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -714,7 +923,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -756,7 +965,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering_attribuutsoort_diepte_paalkop">dieptePaalkop</a>
 </td>
 <td>
-</td>
+Diepte paalkop is de hoogte van de paalkop t.o.v. NAP.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Decimal</a>
 </td>
@@ -853,6 +1062,15 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 <td>dieptePaalkop</td>
 </tr>
 <tr>
+<th>Definitie</th>
+<td>Diepte paalkop is de hoogte van de paalkop t.o.v. NAP.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/fundering/begrip/diepte_paalkop">https://definities.geostandaarden.nl/fundering/begrip/diepte_paalkop</a></td>
+</tr>
+<tr>
 <th>Identificerend</th>
 <td>Nee</td>
 </tr>
@@ -899,7 +1117,58 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Houten paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_betonnen_paalfundering" class="notoc">
+<h6>Betonnen paalfundering</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Betonnen%20paalfundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Betonnen paalfundering</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Betonnen%20paalfundering.generalisatie-Paalfundering</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_betonnen_paalfundering">Betonnen paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering">Paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering" class="notoc">
+<h6>Houten paalfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -947,7 +1216,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -1050,101 +1319,8 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Betonnen paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_betonnen_paalfundering}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Betonnen%20paalfundering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Betonnen paalfundering</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Betonnen%20paalfundering.generalisatie-Paalfundering</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_betonnen_paalfundering">Betonnen paalfundering</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering">Paalfundering</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Staalbuizen paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_staalbuizen_paalfundering}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Staalbuizen%20paalfundering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Staalbuizen paalfundering</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Staalbuizen%20paalfundering.generalisatie-Paalfundering</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_staalbuizen_paalfundering">Staalbuizen paalfundering</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering">Paalfundering</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Amsterdamse paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_amsterdamse_paalfundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_amsterdamse_paalfundering" class="notoc">
+<h6>Amsterdamse paalfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1192,7 +1368,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -1336,7 +1512,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Rotterdamse paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering" class="notoc">
+<h6>Rotterdamse paalfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1384,7 +1563,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -1528,7 +1707,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Houten paalfundering met betonkop {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering_met_betonkop}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering_met_betonkop" class="notoc">
+<h6>Houten paalfundering met betonkop</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1575,7 +1757,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Houten paalfundering met betonoplanger {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering_met_betonoplanger}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_houten_paalfundering_met_betonoplanger" class="notoc">
+<h6>Houten paalfundering met betonoplanger</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1622,7 +1807,224 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Fundering op slieten {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_op_slieten}
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_staalbuizen_paalfundering" class="notoc">
+<h6>Staalbuizen paalfundering</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Staalbuizen%20paalfundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Staalbuizen paalfundering</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Staalbuizen%20paalfundering.generalisatie-Paalfundering</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_staalbuizen_paalfundering">Staalbuizen paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_paalfundering">Paalfundering</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+</section>
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering">
+<h5>Ondiepe Fundering</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ondiepe Fundering</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ondiepe fundering is de wijze van funderen waarbij de krachten uit een fundatieblok of -sloof direct worden overgedragen op de draagkrachtige ondergrond.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/fundering/begrip/ondiepe_fundering">https://definities.geostandaarden.nl/fundering/begrip/ondiepe_fundering</a></td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.generalisatie-Fundering</td>
+</tr>
+<tr>
+<th>Subtype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering">Ondiepe Fundering</a>
+</td>
+</tr>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering">Fundering</a>
+</td>
+</tr>
+<tr>
+<th>Mixin</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_materiaal_ondiepe_fundering">materiaalOndiepeFundering</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_enumeratie_materiaal">Materiaal</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_afmeting_ondiepe_fundering">afmetingOndiepeFundering</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Object"> GM_Object</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_materiaal_ondiepe_fundering">
+<h6>materiaalOndiepeFundering</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.materiaalOndiepeFundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>materiaalOndiepeFundering</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_ondiepe_fundering_attribuutsoort_afmeting_ondiepe_fundering">
+<h6>afmetingOndiepeFundering</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Ondiepe%20Fundering.afmetingOndiepeFundering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>afmetingOndiepeFundering</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_fundering_op_slieten">
+<h6>Fundering op slieten</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1669,7 +2071,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Strokenfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_strokenfundering}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_strokenfundering">
+<h6>Strokenfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1717,7 +2122,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -1779,7 +2184,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Plaatfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_plaatfundering}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_plaatfundering">
+<h6>Plaatfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1827,7 +2235,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -1889,7 +2297,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Poerenfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_poerenfundering}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_poerenfundering">
+<h6>Poerenfundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1936,7 +2347,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Getrapte fundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_getrapte_fundering}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_getrapte_fundering">
+<h6>Getrapte fundering</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1983,336 +2397,14 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 </section>
 
-#### Appartementspand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Appartementspand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Appartementspand.generalisatie-Pand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_appartementspand">Appartementspand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
+</section>
+</section>
 </section>
 
-#### Vrijstaand pand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand}
+![Funderingstype](data/model/cim-fundering-a/objecttype/fundering.funderingstype.png "Funderingstype")
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vrijstaand pand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Vrijstaand%20pand.generalisatie-Pand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Rijtjespand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rijtjespand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Rijtjespand.generalisatie-Pand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_pand">Pand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Niet-seriematig rijtjespand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Niet-seriematig rijtjespand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Niet-seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_niet_seriematig_rijtjespand">Niet-seriematig rijtjespand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Seriematig rijtjespand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Seriematig rijtjespand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Seriematig%20rijtjespand.generalisatie-Rijtjespand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_seriematig_rijtjespand">Seriematig rijtjespand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rijtjespand">Rijtjespand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Twee-onder-een-kappand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Twee-onder-een-kappand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Twee-onder-een-kappand.generalisatie-Vrijstaand%20pand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_twee_onder_een_kappand">Twee-onder-een-kappand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Alleenstaand pand {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Alleenstaand pand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Funderingen:CIM%20Fundering%20A:Alleenstaand%20pand.generalisatie-Vrijstaand%20pand</td>
-</tr>
-<tr>
-<th>Subtype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_alleenstaand_pand">Alleenstaand pand</a>
-</td>
-</tr>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_vrijstaand_pand">Vrijstaand pand</a>
-</td>
-</tr>
-<tr>
-<th>Mixin</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-#### Funderingseenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_funderingseenheid">
+<h4>Funderingseenheid</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2330,7 +2422,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -2475,7 +2567,10 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </section>
 </section>
 
-#### Bouwkundige eenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid}
+</section>
+
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid">
+<h4>Bouwkundige eenheid</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2493,7 +2588,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </table>
 
 <section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -2636,6 +2731,8 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 </tbody>
 </table>
 </section>
+</section>
+
 </section>
 
 ### Enumeraties

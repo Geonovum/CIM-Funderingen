@@ -1,10 +1,11 @@
 ## Extern IMBAG
 
-![Extern IMBAG](data/model/imbag/package-view.png "Extern IMBAG")
+![mim:Extern IMBAG](data/model/imbag/package-view.png "mim:Extern IMBAG")
 
 ### Objecttypen
 
-#### Pand {#informatiemodel_imbag_domein_objecten_objecttype_pand}
+<section id="informatiemodel_imbag_domein_objecten_objecttype_pand">
+<h4>Pand</h4>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -36,3 +37,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

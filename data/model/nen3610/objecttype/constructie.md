@@ -1,4 +1,5 @@
-## Constructie {#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie}
+<section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie">
+<h2>Constructie</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -30,3 +31,5 @@
 <tbody>
 </tbody>
 </table>
+
+</section>

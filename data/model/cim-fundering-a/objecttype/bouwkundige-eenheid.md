@@ -1,4 +1,5 @@
-## Bouwkundige eenheid {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid">
+<h2>Bouwkundige eenheid</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16,7 +17,7 @@
 </table>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -46,7 +47,7 @@
 </section>
 
 <section class="notoc">
-<h3>Overzicht Relatiesoorten</h3>
+<h5>Overzicht Relatiesoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -76,9 +77,9 @@
 </section>
 
 <section class="notoc">
-<h3>Details attribuutsoorten</h3>
+<h5>Details attribuutsoorten</h5>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_attribuutsoort_naam">
-<h4>naam</h4>
+<h6>naam</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -109,9 +110,9 @@
 </section>
 
 <section class="notoc">
-<h3>Details Relatiesoorten</h3>
+<h5>Details Relatiesoorten</h5>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_bouwkundige_eenheid_relatiesoort_omvat">
-<h4>omvat</h4>
+<h6>omvat</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -159,4 +160,6 @@
 </tbody>
 </table>
 </section>
+</section>
+
 </section>

@@ -1,4 +1,5 @@
-## Rotterdamse paalfundering {#informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering}
+<section id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering">
+<h2>Rotterdamse paalfundering</h2>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -46,7 +47,7 @@
 </section>
 
 <section class="notoc">
-<h3>Overzicht attribuutsoorten</h3>    
+<h5>Overzicht attribuutsoorten</h5>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
@@ -100,9 +101,9 @@
 </section>
 
 <section class="notoc">
-<h3>Details attribuutsoorten</h3>
+<h5>Details attribuutsoorten</h5>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_schuifhout">
-<h4>materiaalSchuifhout</h4>
+<h6>materiaalSchuifhout</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -131,7 +132,7 @@
 </table>
 </section>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_langshout">
-<h4>materiaalLangshout</h4>
+<h6>materiaalLangshout</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -160,7 +161,7 @@
 </table>
 </section>
 <section class="notoc" id="informatiemodel_informatiemodel_funderingen_domein_cim_fundering_a_objecttype_rotterdamse_paalfundering_attribuutsoort_materiaal_kesp">
-<h4>materiaalKesp</h4>
+<h6>materiaalKesp</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -188,4 +189,6 @@
 </tbody>
 </table>
 </section>
+</section>
+
 </section>
