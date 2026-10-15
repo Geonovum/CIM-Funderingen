@@ -1,17 +1,21 @@
-# Informatiemodel CIM - Funderingen
+# Informatiemodel CIM - Funderingen {#informatiemodel_informatiemodel_funderingen}
 
-![Pandtypologie](data/model/pandtypologie.png "Pandtypologie")
+## Domein Fundering {#informatiemodel_informatiemodel_funderingen_domein_fundering}
 
-![Funderingstype](data/model/funderingstype.png "Funderingstype")
-
-## Domein Fundering
-
-![mim:Domein Fundering](data/model/fundering/package-view.png "mim:Domein Fundering")
+<figure data-md-diagram="05d4974a-4d67-3ba3-a19a-bba94e961eae">
+<div data-include="data/model/fundering/package-view.svg" data-include-format="html"><img src="data/model/fundering/package-view.png" alt="Domein Fundering" loading="lazy"></div>
+<figcaption>Domein Fundering</figcaption>
+</figure>
 
 ### Objecttypen
 
 <section id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">
 <h4>Pand</h4>
+
+<figure data-md-diagram="0bdf254d-bdc6-4063-8167-15c9d0e4b174">
+<div data-include="data/model/fundering/objecttype/pand.pandtypologie.svg" data-include-format="html"><img src="data/model/fundering/objecttype/pand.pandtypologie.png" alt="Pandtypologie" loading="lazy"></div>
+<figcaption>Pandtypologie</figcaption>
+</figure>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -39,7 +43,7 @@
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_generalisatie_pand" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -182,8 +186,6 @@ Classificatie van een pand op basis van de bouwkundige verschijningsvorm en de c
 
 </section>
 
-![Pandtypologie](data/model/fundering/objecttype/pand.pandtypologie.png "Pandtypologie")
-
 <section id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie">
 <h4>Funderingsconstructie</h4>
 
@@ -213,7 +215,7 @@ Classificatie van een pand op basis van de bouwkundige verschijningsvorm en de c
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_generalisatie_constructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -629,7 +631,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_generalisatie_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -831,7 +833,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1033,7 +1035,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1238,7 +1240,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1442,7 +1444,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1564,7 +1566,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1687,7 +1689,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1809,7 +1811,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_staalbuizen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1869,7 +1871,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_generalisatie_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2030,7 +2032,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_op_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2089,7 +2091,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2211,7 +2213,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2333,7 +2335,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2392,7 +2394,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_getrapte_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2801,31 +2803,36 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
   <th>Waarde</th>
   <th>Definitie</th>
 </tr>
-<tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_twee_onder_een_kappand">
 <td>
 twee-onder-een-kappand</td>
 <td>
 Een pand met maximaal drie bouwlagen dat een dragende muur deelt met één naastgelegen pand en daarom constructief verbonden is aan één ander pand.</td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_seriematig_rijtjespand">
 <td>
 seriematig rijtjespand</td>
 <td>
 Een pand dat deel uitmaakt van een aaneengesloten rij panden waarbij naastgelegen panden dragende wanden delen en waarvan de bouwkundige kenmerken grotendeels uniform zijn.</td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_niet_seriematig_rijtjespand">
 <td>
 niet-seriematig rijtjespand</td>
 <td>
 Een pand dat deel uitmaakt van een aaneengesloten rij panden waarvan de bouwkundige kenmerken niet grotendeels uniform zijn, maar waarbij sprake is van samenhang met andere panden in de rij die impact kunnen hebben op de fundering.</td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_appartementspand">
 <td>
 appartementspand</td>
 <td>
 Een pand met meerdere bouwlagen dat bestaat uit meerdere appartementen, die doorgaans via een gemeenschappelijke ontsluiting of gemeenschappelijke voorzieningen met elkaar samenhangen.</td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_alleenstaand_pand">
 <td>
 alleenstaand pand</td>
 <td>
 Een pand met maximaal drie bouwlagen dat geen wanden of daken gemeenschappelijk heeft met naastgelegen panden en daarom constructief en functioneel gescheiden is van andere panden.</td>
+</tr>
 </tbody>
 </table>
 
@@ -2858,16 +2865,18 @@ Een pand met maximaal drie bouwlagen dat geen wanden of daken gemeenschappelijk 
   <th>Waarde</th>
   <th>Definitie</th>
 </tr>
-<tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_vuren">
 <td>
 vuren</td>
 <td>
 </td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_grenen">
 <td>
 grenen</td>
 <td>
 </td>
+</tr>
 </tbody>
 </table>
 
@@ -2900,16 +2909,18 @@ grenen</td>
   <th>Waarde</th>
   <th>Definitie</th>
 </tr>
-<tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_gewapend_beton">
 <td>
 gewapend beton</td>
 <td>
 </td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_ongewapend_beton">
 <td>
 ongewapend beton</td>
 <td>
 </td>
+</tr>
 </tbody>
 </table>
 
@@ -2960,9 +2971,12 @@ ongewapend beton</td>
 </tbody>
 </table>
 
-## Extern NEN3610
+## Extern NEN3610 {#extern_nen3610}
 
-![mim:Extern NEN3610](data/model/nen3610/package-view.png "mim:Extern NEN3610")
+<figure data-md-diagram="196ac023-7d64-3d99-a332-bf0683e58885">
+<div data-include="data/model/nen3610/package-view.svg" data-include-format="html"><img src="data/model/nen3610/package-view.png" alt="Extern NEN3610" loading="lazy"></div>
+<figcaption>Extern NEN3610</figcaption>
+</figure>
 
 ### Objecttypen
 
@@ -3122,9 +3136,12 @@ ongewapend beton</td>
 
 </section>
 
-## Extern IMBAG
+## Extern IMBAG {#extern_imbag}
 
-![mim:Extern IMBAG](data/model/imbag/package-view.png "mim:Extern IMBAG")
+<figure data-md-diagram="4cb2725c-6358-332e-affb-8622af8d50e8">
+<div data-include="data/model/imbag/package-view.svg" data-include-format="html"><img src="data/model/imbag/package-view.png" alt="Extern IMBAG" loading="lazy"></div>
+<figcaption>Extern IMBAG</figcaption>
+</figure>
 
 ### Objecttypen
 

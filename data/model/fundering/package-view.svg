@@ -1,0 +1,1040 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3920 1852" width="3920" height="1852" role="group" aria-label="Package View (Fundering)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &apos;Segoe UI&apos;, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled" markerWidth="20" markerHeight="20" refX="20" refY="10" orient="auto" markerUnits="strokeWidth">
+      <line x1="16" y1="10" x2="20" y2="10" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 4 L 19 10 L 6 16 L 10 10 Z" fill="#4b5563" stroke="#4b5563" stroke-width="1"/>
+    </marker>
+    <marker id="md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow" markerWidth="24" markerHeight="24" refX="24" refY="12" orient="auto" markerUnits="strokeWidth">
+      <line x1="20" y1="12" x2="24" y2="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 2 L 22 12 L 6 22 Z" fill="white" stroke="#4b5563" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="3920" height="1852" fill="#ffffff"/>
+  <g data-md-element="f6d496ce-acd2-44e9-8b2b-157405cb1b7e">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_generalisatie_pand">
+      <title>⁨«Generalisatie»⁩ (⁨Pand⁩ → ⁨Pand⁩)</title>
+      <path d="M888 363L888 258" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M888 363L888 258" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="25c3bba0-841d-43bf-a892-5c21ad3c77b4">
+    <title>⁨«Generalisatie»⁩ (⁨ReeelObject⁩ → ⁨GeoObject⁩)</title>
+    <path d="M1362 392L1362 172" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+    <path d="M1362 392L1362 172" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="802e980e-6a2a-4165-b41d-3a743dc78ec4">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_relatiesoort_hoort_bij">
+      <title>⁨«Relatiesoort» hoort bij⁩ (⁨Fundering⁩ → ⁨Pand⁩)</title>
+      <desc>⁨Fundering⁩: ⁨1⁩; ⁨Pand⁩: ⁨1⁩</desc>
+      <path d="M698 1208L 698,541Q 698,536 703,536L 779,536Q 784,536 784,531L784 485" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M698 1208L 698,541Q 698,536 703,536L 779,536Q 784,536 784,531L784 485" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="28fda92e-09de-48b4-a1de-34ed5311c98a">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_draagt">
+      <title>⁨«Relatiesoort» draagt⁩ (⁨Funderingsconstructie⁩ → ⁨Pand⁩)</title>
+      <desc>⁨Funderingsconstructie⁩: ⁨1..*⁩; ⁨Pand⁩: ⁨1..*⁩</desc>
+      <path d="M1117 829L 1117,541Q 1117,536 1112,536L 998,536Q 993,536 993,531L993 485" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M1117 829L 1117,541Q 1117,536 1112,536L 998,536Q 993,536 993,531L993 485" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="01c3c6f3-c5a2-42da-8f85-1052d76cb94b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie met betonoplanger⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <path d="M264 1710L 264,1618Q 264,1613 269,1613L 662,1613Q 667,1613 667,1608L667 1563" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M264 1710L 264,1618Q 264,1613 269,1613L 662,1613Q 667,1613 667,1608L667 1563" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="6d75b4cf-713c-46ee-8fa8-5d61ad9f1bac">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Amsterdamse paalfunderingsconstructie⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <path d="M747 1690L747 1563" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M747 1690L747 1563" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="55276de7-1afd-4c2c-a0b6-63340a7deb07">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Rotterdamse paalfunderingsconstructie⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <path d="M1169 1690L 1169,1618Q 1169,1613 1164,1613L 832,1613Q 827,1613 827,1608L827 1563" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1169 1690L 1169,1618Q 1169,1613 1164,1613L 832,1613Q 827,1613 827,1608L827 1563" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="2f05ac7c-084b-41d7-8d01-3dfdc992a8e5">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie met betonkop⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <path d="M1624 1710L 1624,1608Q 1624,1603 1619,1603L 912,1603Q 907,1603 907,1598L907 1563" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1624 1710L 1624,1608Q 1624,1603 1619,1603L 912,1603Q 907,1603 907,1598L907 1563" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="78ddceac-f03b-4585-8ee6-11f7f921dcd2">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <path d="M787 1421L 787,1348Q 787,1343 792,1343L 1077,1343Q 1082,1343 1082,1338L1082 1303" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M787 1421L 787,1348Q 787,1343 792,1343L 1077,1343Q 1082,1343 1082,1338L1082 1303" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="7a9c0014-6e06-4cf5-bfa6-a43a598148db">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_staalbuizen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Staalbuizen paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <path d="M1176 1467L1176 1303" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1176 1467L1176 1303" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="a9eda16e-9135-4f7c-8c17-d7953c3be04e">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Betonnen paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <path d="M1575 1441L 1575,1348Q 1575,1343 1570,1343L 1274,1343Q 1269,1343 1269,1338L1269 1303" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1575 1441L 1575,1348Q 1575,1343 1570,1343L 1274,1343Q 1269,1343 1269,1338L1269 1303" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="be2f251f-c173-4e27-821f-af93009e5bab">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_getrapte_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Getrapte funderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <path d="M1943 1467L 1943,1338Q 1943,1333 1948,1333L 2514,1333Q 2519,1333 2519,1328L2519 1293" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1943 1467L 1943,1338Q 1943,1333 1948,1333L 2514,1333Q 2519,1333 2519,1328L2519 1293" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="81bc3b07-30fc-454f-9018-5777707a4136">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_op_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Fundering op funderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <path d="M2309 1467L 2309,1348Q 2309,1343 2314,1343L 2589,1343Q 2594,1343 2594,1338L2594 1293" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M2309 1467L 2309,1348Q 2309,1343 2314,1343L 2589,1343Q 2594,1343 2594,1338L2594 1293" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="428eeeb0-772c-43c1-81f0-742921b05f08">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Strokenfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <path d="M2668 1441L2668 1293" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M2668 1441L2668 1293" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="32bd0a5d-862e-4068-9615-206b460fb9b0">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Plaatfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <path d="M3000 1441L 3000,1348Q 3000,1343 2995,1343L 2747,1343Q 2742,1343 2742,1338L2742 1293" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M3000 1441L 3000,1348Q 3000,1343 2995,1343L 2747,1343Q 2742,1343 2742,1338L2742 1293" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="bbb4e6fc-a4c3-4734-adeb-161b1afeeb05">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Poerenfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <path d="M3330 1467L 3330,1338Q 3330,1333 3325,1333L 2822,1333Q 2817,1333 2817,1328L2817 1293" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M3330 1467L 3330,1338Q 3330,1333 3325,1333L 2822,1333Q 2817,1333 2817,1328L2817 1293" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="51e7d110-efec-4d50-b4f2-8b0c44e68c10">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_relatiesoort_omvat_geheel_of_deel_van">
+      <title>⁨«Relatiesoort» /omvat geheel of deel van⁩ (⁨Fundering⁩ → ⁨Funderingsconstructie⁩)</title>
+      <desc>⁨Fundering⁩: ⁨1..*⁩; ⁨Funderingsconstructie⁩: ⁨1..*⁩</desc>
+      <path d="M847 1208L 847,1073Q 847,1068 852,1068L 1091,1068Q 1096,1068 1096,1063L1096 971" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M847 1208L 847,1073Q 847,1068 852,1068L 1091,1068Q 1096,1068 1096,1063L1096 971" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="604f13be-dc28-4c17-8a0b-7e6a3f9f2490">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_generalisatie_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Diepe funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <path d="M1176 1161L1176 971" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1176 1161L1176 971" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="0dcb59ab-3e07-4ab9-aa72-cd95ca8ed86d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_generalisatie_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Ondiepe funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <path d="M2668 1171L 2668,1081Q 2668,1076 2663,1076L 1260,1076Q 1255,1076 1255,1071L1255 971" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M2668 1171L 2668,1081Q 2668,1076 2663,1076L 1260,1076Q 1255,1076 1255,1071L1255 971" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="84b6f96e-a1ea-4f52-ac38-74f441299471">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_draagt_panden_van">
+      <title>⁨«Relatiesoort» /draagt panden van⁩ (⁨Funderingsconstructie⁩ → ⁨Funderingseenheid⁩)</title>
+      <desc>⁨Funderingsconstructie⁩: ⁨1⁩; ⁨Funderingseenheid⁩: ⁨1⁩</desc>
+      <path d="M1001 829L 1001,807Q 1001,802 996,802L 893,802Q 888,802 888,797L888 708" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M1001 829L 1001,807Q 1001,802 996,802L 893,802Q 888,802 888,797L888 708" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="ec348b98-1130-411f-a9fe-762b4da6656d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_generalisatie_constructie">
+      <title>⁨«Generalisatie»⁩ (⁨Funderingsconstructie⁩ → ⁨Constructie⁩)</title>
+      <path d="M1244 829L 1244,809Q 1244,804 1249,804L 1357,804Q 1362,804 1362,799L1362 690" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+      <path d="M1244 829L 1244,809Q 1244,804 1249,804L 1357,804Q 1362,804 1362,799L1362 690" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="27cd30aa-7d4f-4b87-8fd6-126d0a428fa0">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingseenheid_relatiesoort_omvat">
+      <title>⁨«Relatiesoort» omvat⁩ (⁨Funderingseenheid⁩ → ⁨Pand⁩)</title>
+      <desc>⁨Funderingseenheid⁩: ⁨1⁩; ⁨Pand⁩: ⁨1..*⁩</desc>
+      <path d="M888 606L888 485" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M888 606L888 485" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="4bea83b1-4eda-4c33-bdc2-176eb05e4d4c">
+    <title>⁨«Generalisatie»⁩ (⁨Constructie⁩ → ⁨ReeelObject⁩)</title>
+    <path d="M1362 625L1362 457" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-hollow)"/>
+    <path d="M1362 625L1362 457" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="8337aa3c-7af6-483b-8a29-450e7138799d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_is_gekoppeld_aan">
+      <title>⁨«Relatiesoort» is gekoppeld aan⁩ (⁨Funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <desc>⁨Funderingsconstructie⁩: ⁨0..*⁩; ⁨Funderingsconstructie⁩: ⁨0..*⁩</desc>
+      <path d="M952 900L 884,900Q 879,900 879,905L 879,1035Q 879,1040 884,1040L 986,1040Q 991,1040 991,1035L991 971" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-05d4974a-4d67-3ba3-a19a-bba94e961eae-triangle-filled)"/>
+      <path d="M952 900L 884,900Q 879,900 879,905L 879,1035Q 879,1040 884,1040L 986,1040Q 991,1040 991,1035L991 971" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+    </a>
+  </g>
+  <g data-md-element="f6d496ce-acd2-44e9-8b2b-157405cb1b7e">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_generalisatie_pand">
+      <title>⁨«Generalisatie»⁩ (⁨Pand⁩ → ⁨Pand⁩)</title>
+      <g>
+        <rect x="846.75" y="295.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="848.75" y="308.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="25c3bba0-841d-43bf-a892-5c21ad3c77b4">
+    <title>⁨«Generalisatie»⁩ (⁨ReeelObject⁩ → ⁨GeoObject⁩)</title>
+    <g>
+      <rect x="1320.75" y="295.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="1322.75" y="308.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="802e980e-6a2a-4165-b41d-3a743dc78ec4">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_relatiesoort_hoort_bij">
+      <title>⁨«Relatiesoort» hoort bij⁩ (⁨Fundering⁩ → ⁨Pand⁩)</title>
+      <g>
+        <rect x="659.75" y="745.5" width="77.2" height="36.38" fill="#ffffff"/>
+        <text x="661.75" y="758.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="677.36" y="774.69" font-size="10.8" fill="#000000" textLength="41.98" lengthAdjust="spacingAndGlyphs">hoort bij</text>
+      </g>
+      <g>
+        <text x="708.25" y="1201.5" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="769.58" y="497" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="28fda92e-09de-48b4-a1de-34ed5311c98a">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_draagt">
+      <title>⁨«Relatiesoort» draagt⁩ (⁨Funderingsconstructie⁩ → ⁨Pand⁩)</title>
+      <g>
+        <rect x="1078.25" y="634" width="77.2" height="36.38" fill="#ffffff"/>
+        <text x="1080.25" y="647" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="1100.36" y="663.19" font-size="10.8" fill="#000000" textLength="32.97" lengthAdjust="spacingAndGlyphs">draagt</text>
+      </g>
+      <g>
+        <text x="1126.75" y="823" font-size="10.8" fill="#000000" textLength="16.03" lengthAdjust="spacingAndGlyphs">1..*</text>
+      </g>
+      <g>
+        <text x="966.91" y="497" font-size="10.8" fill="#000000" textLength="16.03" lengthAdjust="spacingAndGlyphs">1..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="01c3c6f3-c5a2-42da-8f85-1052d76cb94b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie met betonoplanger⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <g>
+        <rect x="222.5" y="1622.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="224.5" y="1635.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="6d75b4cf-713c-46ee-8fa8-5d61ad9f1bac">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Amsterdamse paalfunderingsconstructie⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <g>
+        <rect x="705" y="1622.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="707" y="1635.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="55276de7-1afd-4c2c-a0b6-63340a7deb07">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Rotterdamse paalfunderingsconstructie⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <g>
+        <rect x="1127" y="1622.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1129" y="1635.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="2f05ac7c-084b-41d7-8d01-3dfdc992a8e5">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop_generalisatie_houten_paalfunderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie met betonkop⁩ → ⁨Houten paalfunderingsconstructie⁩)</title>
+      <g>
+        <rect x="1582.5" y="1622.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1584.5" y="1635.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="78ddceac-f03b-4585-8ee6-11f7f921dcd2">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Houten paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="745" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="747" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="7a9c0014-6e06-4cf5-bfa6-a43a598148db">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_staalbuizen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Staalbuizen paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="1134" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1136" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="a9eda16e-9135-4f7c-8c17-d7953c3be04e">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Betonnen paalfunderingsconstructie⁩ → ⁨Diepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="1533" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1535" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="be2f251f-c173-4e27-821f-af93009e5bab">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_getrapte_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Getrapte funderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="1901.5" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1903.5" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="81bc3b07-30fc-454f-9018-5777707a4136">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_op_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Fundering op funderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="2267.5" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="2269.5" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="428eeeb0-772c-43c1-81f0-742921b05f08">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Strokenfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="2626.5" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="2628.5" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="32bd0a5d-862e-4068-9615-206b460fb9b0">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Plaatfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="2958" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="2960" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="bbb4e6fc-a4c3-4734-adeb-161b1afeeb05">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Poerenfunderingsconstructie⁩ → ⁨Ondiepe funderingsconstructie⁩)</title>
+      <g>
+        <rect x="3288" y="1353" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="3290" y="1366" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="51e7d110-efec-4d50-b4f2-8b0c44e68c10">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_relatiesoort_omvat_geheel_of_deel_van">
+      <title>⁨«Relatiesoort» /omvat geheel of deel van⁩ (⁨Fundering⁩ → ⁨Funderingsconstructie⁩)</title>
+      <g>
+        <rect x="778.25" y="1077.5" width="136.67" height="36.38" fill="#ffffff"/>
+        <text x="809.98" y="1090.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="780.25" y="1106.69" font-size="10.8" fill="#000000" textLength="132.67" lengthAdjust="spacingAndGlyphs">/omvat geheel of deel van</text>
+      </g>
+      <g>
+        <text x="856.75" y="1201.5" font-size="10.8" fill="#000000" textLength="16.03" lengthAdjust="spacingAndGlyphs">1..*</text>
+      </g>
+      <g>
+        <text x="1070" y="983" font-size="10.8" fill="#000000" textLength="16.03" lengthAdjust="spacingAndGlyphs">1..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="604f13be-dc28-4c17-8a0b-7e6a3f9f2490">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_generalisatie_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Diepe funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <g>
+        <rect x="1134" y="1085.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1136" y="1098.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="0dcb59ab-3e07-4ab9-aa72-cd95ca8ed86d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_generalisatie_funderingsconstructie">
+      <title>⁨«Generalisatie»⁩ (⁨Ondiepe funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <g>
+        <rect x="2626.5" y="1085.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="2628.5" y="1098.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="84b6f96e-a1ea-4f52-ac38-74f441299471">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_draagt_panden_van">
+      <title>⁨«Relatiesoort» /draagt panden van⁩ (⁨Funderingsconstructie⁩ → ⁨Funderingseenheid⁩)</title>
+      <g>
+        <rect x="836.25" y="745.5" width="103.83" height="36.38" fill="#ffffff"/>
+        <text x="851.56" y="758.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="838.25" y="774.69" font-size="10.8" fill="#000000" textLength="99.83" lengthAdjust="spacingAndGlyphs">/draagt panden van</text>
+      </g>
+      <g>
+        <text x="1011.41" y="823" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="874.25" y="720" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="ec348b98-1130-411f-a9fe-762b4da6656d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_generalisatie_constructie">
+      <title>⁨«Generalisatie»⁩ (⁨Funderingsconstructie⁩ → ⁨Constructie⁩)</title>
+      <g>
+        <rect x="1320.75" y="753.5" width="83.17" height="20.19" fill="#ffffff"/>
+        <text x="1322.75" y="766.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="27cd30aa-7d4f-4b87-8fd6-126d0a428fa0">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingseenheid_relatiesoort_omvat">
+      <title>⁨«Relatiesoort» omvat⁩ (⁨Funderingseenheid⁩ → ⁨Pand⁩)</title>
+      <g>
+        <rect x="849.75" y="522.5" width="77.2" height="36.38" fill="#ffffff"/>
+        <text x="851.75" y="535.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="872.66" y="551.69" font-size="10.8" fill="#000000" textLength="31.39" lengthAdjust="spacingAndGlyphs">omvat</text>
+      </g>
+      <g>
+        <text x="898.25" y="600" font-size="10.8" fill="#000000" textLength="4.41" lengthAdjust="spacingAndGlyphs">1</text>
+      </g>
+      <g>
+        <text x="862.25" y="497" font-size="10.8" fill="#000000" textLength="16.03" lengthAdjust="spacingAndGlyphs">1..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="4bea83b1-4eda-4c33-bdc2-176eb05e4d4c">
+    <title>⁨«Generalisatie»⁩ (⁨Constructie⁩ → ⁨ReeelObject⁩)</title>
+    <g>
+      <rect x="1320.75" y="530.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="1322.75" y="543.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="8337aa3c-7af6-483b-8a29-450e7138799d">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_relatiesoort_is_gekoppeld_aan">
+      <title>⁨«Relatiesoort» is gekoppeld aan⁩ (⁨Funderingsconstructie⁩ → ⁨Funderingsconstructie⁩)</title>
+      <g>
+        <rect x="889" y="1021.5" width="90.72" height="36.38" fill="#ffffff"/>
+        <text x="897.75" y="1034.5" font-size="10.8" fill="#000000" textLength="73.2" lengthAdjust="spacingAndGlyphs">«Relatiesoort»</text>
+        <text x="891" y="1050.69" font-size="10.8" fill="#000000" textLength="86.72" lengthAdjust="spacingAndGlyphs">is gekoppeld aan</text>
+      </g>
+      <g>
+        <text x="933.25" y="885" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+      <g>
+        <text x="962.5" y="983" font-size="10.8" fill="#000000" textLength="18.17" lengthAdjust="spacingAndGlyphs">0..*</text>
+      </g>
+    </a>
+  </g>
+  <g data-md-element="fb9d0a3e-d8da-4752-a44d-65f58c3f8fee">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
+      <title>GeoObject</title>
+      <rect x="1205.25" y="106.5" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="1205.75" y="107" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="1206.25" y="107.5" width="312" height="62.5" fill="#00826b"/>
+      <text x="1325.3" y="123.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1316.52" y="144.5" font-size="18" font-weight="500" fill="#ffffff" textLength="91.45" lengthAdjust="spacingAndGlyphs">GeoObject</text>
+      <text x="1218.36" y="162" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="a782b9cd-ec1d-4c74-82e6-b26ff4aa6c54">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object">
+      <title>ReeelObject</title>
+      <rect x="1205.25" y="391.5" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="1205.75" y="392" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="1206.25" y="392.5" width="312" height="62.5" fill="#00826b"/>
+      <text x="1325.3" y="408.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1310.13" y="429.5" font-size="18" font-weight="500" fill="#ffffff" textLength="104.23" lengthAdjust="spacingAndGlyphs">ReeelObject</text>
+      <text x="1218.36" y="447" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="50512610-75a0-4946-88ea-260ecf19cdd7">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie">
+      <title>Constructie</title>
+      <rect x="1205.25" y="624.5" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="1205.75" y="625" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="1206.25" y="625.5" width="312" height="62.5" fill="#00826b"/>
+      <text x="1325.3" y="641.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1312.17" y="662.5" font-size="18" font-weight="500" fill="#ffffff" textLength="100.14" lengthAdjust="spacingAndGlyphs">Constructie</text>
+      <text x="1218.36" y="680" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="2e9cd2ab-e694-4058-94d1-af651b752e70">
+    <a href="#informatiemodel_imbag_domein_objecten_objecttype_pand">
+      <title>Pand</title>
+      <rect x="748.25" y="20" width="280" height="238" rx="2" fill="#fdf6f9"/>
+      <rect x="748.75" y="20.5" width="279" height="237" rx="1.5" fill="none" stroke="#ab4573" stroke-width="1"/>
+      <rect x="749.25" y="21" width="278" height="63.5" fill="#ab4573"/>
+      <line x1="749.25" y1="84" x2="1027.25" y2="84" stroke="#ab4573" stroke-width="1"/>
+      <text x="851.3" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="866.42" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="43.66" lengthAdjust="spacingAndGlyphs">Pand</text>
+      <text x="850.27" y="75.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="75.97" lengthAdjust="spacingAndGlyphs">(from IMBAG)</text>
+      <text x="757.25" y="104.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="9775c92f-e8f7-4d58-9faf-ec7b02d96d9b">
+      <title>identificatie</title>
+      <text x="757.25" y="123.5" font-size="14" font-weight="600" fill="#000000" textLength="80.27" lengthAdjust="spacingAndGlyphs">identificatie</text>
+      <text x="837.52" y="123.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="845.98" y="123.5" font-size="14" fill="#000000" textLength="20.22" lengthAdjust="spacingAndGlyphs">AN</text>
+      <text x="870.2" y="123.5" font-size="14" fill="#000000" textLength="23.91" lengthAdjust="spacingAndGlyphs">{id}</text>
+    </g>
+    <g data-md-element="05cd8752-4d04-4da7-a50f-c5c3a3326508">
+      <title>geometrie</title>
+      <text x="757.25" y="143.5" font-size="14" font-weight="600" fill="#000000" textLength="68.98" lengthAdjust="spacingAndGlyphs">geometrie</text>
+      <text x="826.23" y="143.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="834.7" y="143.5" font-size="14" fill="#000000" textLength="81.22" lengthAdjust="spacingAndGlyphs">GM_Surface</text>
+    </g>
+    <g data-md-element="6e01b373-150d-462d-9a5d-b7f281e8991e">
+      <title>oorspronkelijk bouwjaar</title>
+      <text x="757.25" y="163.5" font-size="14" font-weight="600" fill="#000000" textLength="162.69" lengthAdjust="spacingAndGlyphs">oorspronkelijk bouwjaar</text>
+      <text x="919.94" y="163.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="928.41" y="163.5" font-size="14" fill="#000000" textLength="29.86" lengthAdjust="spacingAndGlyphs">Year</text>
+    </g>
+    <g data-md-element="b5ba173f-8c8b-43b3-8bee-638581bfccb8">
+      <title>status</title>
+      <text x="757.25" y="183.5" font-size="14" font-weight="600" fill="#000000" textLength="41.95" lengthAdjust="spacingAndGlyphs">status</text>
+      <text x="799.2" y="183.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="807.67" y="183.5" font-size="14" fill="#000000" textLength="75.39" lengthAdjust="spacingAndGlyphs">StatusPand</text>
+    </g>
+    <g data-md-element="de49be3c-5e68-4c49-bf6e-04f42e870d41">
+      <title>geconstateerd</title>
+      <text x="757.25" y="203.5" font-size="14" font-weight="600" fill="#000000" textLength="98.38" lengthAdjust="spacingAndGlyphs">geconstateerd</text>
+      <text x="855.63" y="203.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="864.09" y="203.5" font-size="14" fill="#000000" textLength="56.13" lengthAdjust="spacingAndGlyphs">Indicatie</text>
+    </g>
+    <g data-md-element="917a92a9-0c27-445f-b3cf-ea303c416eed">
+      <title>documentdatum</title>
+      <text x="757.25" y="223.5" font-size="14" font-weight="600" fill="#000000" textLength="111.14" lengthAdjust="spacingAndGlyphs">documentdatum</text>
+      <text x="868.39" y="223.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="876.86" y="223.5" font-size="14" fill="#000000" textLength="30.58" lengthAdjust="spacingAndGlyphs">Date</text>
+    </g>
+    <g data-md-element="200d4227-ac79-4abd-803f-d63d8ced3230">
+      <title>documentnummer</title>
+      <text x="757.25" y="243.5" font-size="14" font-weight="600" fill="#000000" textLength="124.58" lengthAdjust="spacingAndGlyphs">documentnummer</text>
+      <text x="881.83" y="243.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+      <text x="890.3" y="243.5" font-size="14" fill="#000000" textLength="20.22" lengthAdjust="spacingAndGlyphs">AN</text>
+    </g>
+  </g>
+  <g data-md-element="102c1b87-b802-4bba-a997-756bcd4edf58">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering">
+      <title>Fundering</title>
+      <rect x="632.5" y="1207.5" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="633" y="1208" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="633.5" y="1208.5" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="735.55" y="1224.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="729" y="1245.5" font-size="18" font-weight="500" fill="#ffffff" textLength="86.98" lengthAdjust="spacingAndGlyphs">Fundering</text>
+    </a>
+  </g>
+  <g data-md-element="7a71519c-3e5f-4b5d-b7af-3a6e16a3b55b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingseenheid">
+      <title>Funderingseenheid</title>
+      <rect x="748.25" y="606" width="280" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="748.75" y="606.5" width="279" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="749.25" y="607" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="749.25" y1="654" x2="1027.25" y2="654" stroke="#4f73cc" stroke-width="1"/>
+      <text x="851.3" y="623" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="805.39" y="644" font-size="18" font-weight="500" fill="#ffffff" textLength="165.72" lengthAdjust="spacingAndGlyphs">Funderingseenheid</text>
+      <text x="757.25" y="674.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="42a5b199-06d6-40b2-8ee0-dcccd2a9abf2">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingseenheid_attribuutsoort_naam">
+        <title>naam</title>
+        <text x="757.25" y="693.5" font-size="14" font-weight="600" fill="#000000" textLength="37.25" lengthAdjust="spacingAndGlyphs">naam</text>
+        <text x="794.5" y="693.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="802.97" y="693.5" font-size="14" fill="#000000" textLength="104.59" lengthAdjust="spacingAndGlyphs">CharacterString</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="1b3420e9-1a56-45e3-a779-233cf8a13bf3">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_getrapte_funderingsconstructie">
+      <title>Getrapte funderingsconstructie</title>
+      <rect x="1794.5" y="1467" width="297" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="1795" y="1467.5" width="296" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="1795.5" y="1468" width="295" height="46.5" fill="#4f73cc"/>
+      <text x="1906.05" y="1484" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1807.73" y="1505" font-size="18" font-weight="500" fill="#ffffff" textLength="270.53" lengthAdjust="spacingAndGlyphs">Getrapte funderingsconstructie</text>
+    </a>
+  </g>
+  <g data-md-element="dbb8be71-fd5c-4caa-9047-cbdd22b8bd2b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger">
+      <title>Houten paalfunderingsconstructie met betonoplanger</title>
+      <rect x="20" y="1710" width="488.27" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="20.5" y="1710.5" width="487.27" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="21" y="1711" width="486.27" height="47.5" fill="#4f73cc"/>
+      <line x1="21" y1="1758" x2="507.27" y2="1758" stroke="#4f73cc" stroke-width="1"/>
+      <text x="227.17" y="1727" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="33" y="1748" font-size="18" font-weight="500" fill="#ffffff" textLength="462.27" lengthAdjust="spacingAndGlyphs">Houten paalfunderingsconstructie met betonoplanger</text>
+      <text x="29" y="1778.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="46a30392-d2ad-4aae-8fd6-5b94bf1f1e46">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger_attribuutsoort_betontype">
+        <title>betontype</title>
+        <text x="29" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="69.41" lengthAdjust="spacingAndGlyphs">betontype</text>
+        <text x="98.41" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="106.88" y="1797.5" font-size="14" fill="#000000" textLength="67.89" lengthAdjust="spacingAndGlyphs">Betontype</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="2a7fdbf7-8a96-4e50-9004-d725cb116695">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_staalbuizen_paalfunderingsconstructie">
+      <title>Staalbuizen paalfunderingsconstructie</title>
+      <rect x="996.5" y="1467" width="358.39" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="997" y="1467.5" width="357.39" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="997.5" y="1468" width="356.39" height="46.5" fill="#4f73cc"/>
+      <text x="1138.73" y="1484" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1009.5" y="1505" font-size="18" font-weight="500" fill="#ffffff" textLength="332.39" lengthAdjust="spacingAndGlyphs">Staalbuizen paalfunderingsconstructie</text>
+    </a>
+  </g>
+  <g data-md-element="9081da8e-8784-4b3f-9c5e-e158f51ce8cf">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie">
+      <title>Houten paalfunderingsconstructie</title>
+      <rect x="626.5" y="1420.5" width="320.36" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="627" y="1421" width="319.36" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="627.5" y="1421.5" width="318.36" height="47.5" fill="#4f73cc"/>
+      <line x1="627.5" y1="1468.5" x2="945.86" y2="1468.5" stroke="#4f73cc" stroke-width="1"/>
+      <text x="749.72" y="1437.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="639.5" y="1458.5" font-size="18" font-weight="500" fill="#ffffff" textLength="294.36" lengthAdjust="spacingAndGlyphs">Houten paalfunderingsconstructie</text>
+      <text x="635.5" y="1489" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="d992911e-ca26-4939-baae-e4807b5e8256">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_attribuutsoort_bovenkant_funderingshout">
+        <title>bovenkant funderingshout</title>
+        <text x="635.5" y="1508" font-size="14" font-weight="600" fill="#000000" textLength="179.39" lengthAdjust="spacingAndGlyphs">bovenkant funderingshout</text>
+        <text x="814.89" y="1508" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="823.36" y="1508" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+    <g data-md-element="4b716a83-1ce9-4c10-95f2-f71a367a95a0">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_attribuutsoort_aanleghoogte_funderingshout">
+        <title>aanleghoogte funderingshout</title>
+        <text x="635.5" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="200.86" lengthAdjust="spacingAndGlyphs">aanleghoogte funderingshout</text>
+        <text x="836.36" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="844.83" y="1528" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+    <g data-md-element="77610092-cb30-4026-86e9-eb6fd7d6cbe2">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_attribuutsoort_houttype">
+        <title>houttype</title>
+        <text x="635.5" y="1548" font-size="14" font-weight="600" fill="#000000" textLength="61.02" lengthAdjust="spacingAndGlyphs">houttype</text>
+        <text x="696.52" y="1548" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="704.98" y="1548" font-size="14" fill="#000000" textLength="61.13" lengthAdjust="spacingAndGlyphs">Houttype</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="22eddc3a-cb2d-424e-96d8-57a2847be58f">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie">
+      <title>Ondiepe funderingsconstructie</title>
+      <rect x="2482" y="1171" width="372" height="122" rx="2" fill="#f5f7fd"/>
+      <rect x="2482.5" y="1171.5" width="371" height="121" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="2483" y="1172" width="370" height="47.5" fill="#4f73cc"/>
+      <line x1="2483" y1="1219" x2="2853" y2="1219" stroke="#4f73cc" stroke-width="1"/>
+      <text x="2631.05" y="1188" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="2533.91" y="1209" font-size="18" font-weight="500" fill="#ffffff" textLength="268.19" lengthAdjust="spacingAndGlyphs">Ondiepe funderingsconstructie</text>
+      <text x="2491" y="1239.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="8dc425e2-6743-4638-abc9-95450361948c">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_attribuutsoort_betontype">
+        <title>betontype</title>
+        <text x="2491" y="1258.5" font-size="14" font-weight="600" fill="#000000" textLength="69.41" lengthAdjust="spacingAndGlyphs">betontype</text>
+        <text x="2560.41" y="1258.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="2568.88" y="1258.5" font-size="14" fill="#000000" textLength="67.89" lengthAdjust="spacingAndGlyphs">Betontype</text>
+      </a>
+    </g>
+    <g data-md-element="41ec9bda-820e-4666-800e-dba9b9f36a4b">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_attribuutsoort_afmeting_ondiepe_funderingsconstructie">
+        <title>afmeting ondiepe funderingsconstructie</title>
+        <text x="2491" y="1278.5" font-size="14" font-weight="600" fill="#000000" textLength="273.11" lengthAdjust="spacingAndGlyphs">afmeting ondiepe funderingsconstructie</text>
+        <text x="2764.11" y="1278.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="2772.58" y="1278.5" font-size="14" fill="#000000" textLength="72.34" lengthAdjust="spacingAndGlyphs">GM_Object</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="3c98ec2b-97a3-4b6e-abe7-099da2fdcd29">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie">
+      <title>Diepe funderingsconstructie</title>
+      <rect x="1035.5" y="1161" width="280" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="1036" y="1161.5" width="279" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="1036.5" y="1162" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="1036.5" y1="1209" x2="1314.5" y2="1209" stroke="#4f73cc" stroke-width="1"/>
+      <text x="1138.55" y="1178" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1052.78" y="1199" font-size="18" font-weight="500" fill="#ffffff" textLength="245.42" lengthAdjust="spacingAndGlyphs">Diepe funderingsconstructie</text>
+      <text x="1044.5" y="1229.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="a2eb2076-2e19-483e-a47a-457e7eb14c8b">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_attribuutsoort_diepte_paalvoet">
+        <title>diepte paalvoet</title>
+        <text x="1044.5" y="1248.5" font-size="14" font-weight="600" fill="#000000" textLength="104.47" lengthAdjust="spacingAndGlyphs">diepte paalvoet</text>
+        <text x="1148.97" y="1248.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1157.44" y="1248.5" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+    <g data-md-element="ef429346-835e-4af8-b41d-3e25545d7b3d">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_attribuutsoort_aantal_palen">
+        <title>aantal palen</title>
+        <text x="1044.5" y="1268.5" font-size="14" font-weight="600" fill="#000000" textLength="82.31" lengthAdjust="spacingAndGlyphs">aantal palen</text>
+        <text x="1126.81" y="1268.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1135.28" y="1268.5" font-size="14" fill="#000000" textLength="46.66" lengthAdjust="spacingAndGlyphs">Integer</text>
+      </a>
+    </g>
+    <g data-md-element="6a8016ac-c89a-4d18-b45e-ee6401872849">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_attribuutsoort_diepte_paalkop">
+        <title>diepte paalkop</title>
+        <text x="1044.5" y="1288.5" font-size="14" font-weight="600" fill="#000000" textLength="99.56" lengthAdjust="spacingAndGlyphs">diepte paalkop</text>
+        <text x="1144.06" y="1288.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1152.53" y="1288.5" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="9c0db91c-3fd9-422c-ba0c-461e5758aefc">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie">
+      <title>Funderingsconstructie</title>
+      <rect x="952.25" y="829" width="341.3" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="952.75" y="829.5" width="340.3" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="953.25" y="830" width="339.3" height="47.5" fill="#4f73cc"/>
+      <line x1="953.25" y1="877" x2="1292.55" y2="877" stroke="#4f73cc" stroke-width="1"/>
+      <text x="1085.94" y="846" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1025.89" y="867" font-size="18" font-weight="500" fill="#ffffff" textLength="194" lengthAdjust="spacingAndGlyphs">Funderingsconstructie</text>
+      <text x="961.25" y="897.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="55857344-cc9e-4442-b9d7-67733c53c127">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_attribuutsoort_oorspronkelijke_technische_levensduur">
+        <title>oorspronkelijke technische levensduur</title>
+        <text x="961.25" y="916.5" font-size="14" font-weight="600" fill="#000000" textLength="261.66" lengthAdjust="spacingAndGlyphs">oorspronkelijke technische levensduur</text>
+        <text x="1222.91" y="916.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1231.38" y="916.5" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+    <g data-md-element="191af0b0-d133-42b6-b9a8-2b87089098bd">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_attribuutsoort_aanlegniveau">
+        <title>aanlegniveau</title>
+        <text x="961.25" y="936.5" font-size="14" font-weight="600" fill="#000000" textLength="90.56" lengthAdjust="spacingAndGlyphs">aanlegniveau</text>
+        <text x="1051.81" y="936.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1060.28" y="936.5" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+    <g data-md-element="8affa587-5add-4e7c-b1b8-9cd2a78f0052">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_attribuutsoort_aanleghoogte">
+        <title>aanleghoogte</title>
+        <text x="961.25" y="956.5" font-size="14" font-weight="600" fill="#000000" textLength="92.81" lengthAdjust="spacingAndGlyphs">aanleghoogte</text>
+        <text x="1054.06" y="956.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1062.53" y="956.5" font-size="14" fill="#000000" textLength="53.17" lengthAdjust="spacingAndGlyphs">Decimal</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="a38199bc-c88a-4e9a-8bc6-29a45c144251">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">
+      <title>Pand</title>
+      <rect x="745.75" y="363" width="285" height="122" rx="2" fill="#f5f7fd"/>
+      <rect x="746.25" y="363.5" width="284" height="121" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="746.75" y="364" width="283" height="47.5" fill="#4f73cc"/>
+      <line x1="746.75" y1="411" x2="1029.75" y2="411" stroke="#4f73cc" stroke-width="1"/>
+      <text x="851.3" y="380" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="866.42" y="401" font-size="18" font-weight="500" fill="#ffffff" textLength="43.66" lengthAdjust="spacingAndGlyphs">Pand</text>
+      <text x="754.75" y="431.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="52eedaba-ac63-40a4-a53b-5645b5a591e3">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_bouwtekening">
+        <title>bouwtekening</title>
+        <text x="754.75" y="450.5" font-size="14" font-weight="600" fill="#000000" textLength="96.16" lengthAdjust="spacingAndGlyphs">bouwtekening</text>
+        <text x="850.91" y="450.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="859.38" y="450.5" font-size="14" fill="#000000" textLength="27.34" lengthAdjust="spacingAndGlyphs">URL</text>
+      </a>
+    </g>
+    <g data-md-element="12678a15-5fab-4b4e-bba3-9513667dd27f">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_attribuutsoort_pandtype">
+        <title>pandtype</title>
+        <text x="754.75" y="470.5" font-size="14" font-weight="600" fill="#000000" textLength="64.92" lengthAdjust="spacingAndGlyphs">pandtype</text>
+        <text x="819.67" y="470.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="828.14" y="470.5" font-size="14" fill="#000000" textLength="193.56" lengthAdjust="spacingAndGlyphs">Pandtype - nog te vervangen</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="e3837293-53a4-4e85-9e66-e7a96b3d98a6">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop">
+      <title>Houten paalfunderingsconstructie met betonkop</title>
+      <rect x="1402" y="1710" width="444" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="1402.5" y="1710.5" width="443" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="1403" y="1711" width="442" height="47.5" fill="#4f73cc"/>
+      <line x1="1403" y1="1758" x2="1845" y2="1758" stroke="#4f73cc" stroke-width="1"/>
+      <text x="1587.05" y="1727" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1415.17" y="1748" font-size="18" font-weight="500" fill="#ffffff" textLength="417.66" lengthAdjust="spacingAndGlyphs">Houten paalfunderingsconstructie met betonkop</text>
+      <text x="1411" y="1778.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="3b7d113b-5371-4ccd-8434-1aa10f9c1c88">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop_attribuutsoort_betontype">
+        <title>betontype</title>
+        <text x="1411" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="69.41" lengthAdjust="spacingAndGlyphs">betontype</text>
+        <text x="1480.41" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1488.88" y="1797.5" font-size="14" fill="#000000" textLength="67.89" lengthAdjust="spacingAndGlyphs">Betontype</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="af3c29dc-87e1-45a5-94fa-91fc5c06f61b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie">
+      <title>Rotterdamse paalfunderingsconstructie</title>
+      <rect x="985" y="1690" width="367" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="985.5" y="1690.5" width="366" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="986" y="1691" width="365" height="47.5" fill="#4f73cc"/>
+      <line x1="986" y1="1738" x2="1351" y2="1738" stroke="#4f73cc" stroke-width="1"/>
+      <text x="1131.55" y="1707" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="998" y="1728" font-size="18" font-weight="500" fill="#ffffff" textLength="341" lengthAdjust="spacingAndGlyphs">Rotterdamse paalfunderingsconstructie</text>
+      <text x="994" y="1758.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="cdd7bb80-816a-41b8-b463-ffe0e19e0796">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_schuifhout">
+        <title>materiaal schuifhout</title>
+        <text x="994" y="1777.5" font-size="14" font-weight="600" fill="#000000" textLength="139.02" lengthAdjust="spacingAndGlyphs">materiaal schuifhout</text>
+        <text x="1133.02" y="1777.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1141.48" y="1777.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+      </a>
+    </g>
+    <g data-md-element="e78fa87d-af36-4a09-bccf-929ee8de82c3">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_langshout">
+        <title>materiaal langshout</title>
+        <text x="994" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="133.64" lengthAdjust="spacingAndGlyphs">materiaal langshout</text>
+        <text x="1127.64" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1136.11" y="1797.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+      </a>
+    </g>
+    <g data-md-element="82a72a8d-5ee6-44a5-9ea4-3aeefe8f9c6a">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_kesp">
+        <title>materiaal kesp</title>
+        <text x="994" y="1817.5" font-size="14" font-weight="600" fill="#000000" textLength="98.67" lengthAdjust="spacingAndGlyphs">materiaal kesp</text>
+        <text x="1092.67" y="1817.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1101.14" y="1817.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+        <text x="1166.17" y="1817.5" font-size="14" fill="#000000" textLength="35.28" lengthAdjust="spacingAndGlyphs">[0...1]</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="25a3f37a-adbc-43d8-b307-ccdd8a93da39">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie">
+      <title>Amsterdamse paalfunderingsconstructie</title>
+      <rect x="558" y="1690" width="377.09" height="142" rx="2" fill="#f5f7fd"/>
+      <rect x="558.5" y="1690.5" width="376.09" height="141" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="559" y="1691" width="375.09" height="47.5" fill="#4f73cc"/>
+      <line x1="559" y1="1738" x2="934.09" y2="1738" stroke="#4f73cc" stroke-width="1"/>
+      <text x="709.59" y="1707" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="571" y="1728" font-size="18" font-weight="500" fill="#ffffff" textLength="351.09" lengthAdjust="spacingAndGlyphs">Amsterdamse paalfunderingsconstructie</text>
+      <text x="567" y="1758.5" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="4d926ba9-273c-48f8-8391-5b9352f65ec0">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_kesp">
+        <title>materiaal kesp</title>
+        <text x="567" y="1777.5" font-size="14" font-weight="600" fill="#000000" textLength="98.67" lengthAdjust="spacingAndGlyphs">materiaal kesp</text>
+        <text x="665.67" y="1777.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="674.14" y="1777.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+      </a>
+    </g>
+    <g data-md-element="f1e0bc00-d2c1-4cdc-b491-0bc915a9cbb7">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_schuifhout">
+        <title>materiaal schuifhout</title>
+        <text x="567" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="139.02" lengthAdjust="spacingAndGlyphs">materiaal schuifhout</text>
+        <text x="706.02" y="1797.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="714.48" y="1797.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+      </a>
+    </g>
+    <g data-md-element="23ff14fe-3fab-46de-a521-27dabc4ad8d2">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_attribuutsoort_materiaal_langshout">
+        <title>materiaal langshout</title>
+        <text x="567" y="1817.5" font-size="14" font-weight="600" fill="#000000" textLength="133.64" lengthAdjust="spacingAndGlyphs">materiaal langshout</text>
+        <text x="700.64" y="1817.5" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="709.11" y="1817.5" font-size="14" fill="#000000" textLength="61.03" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="460b2c6b-7aba-4ab2-bf6e-ea8ebd4f7a39">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie">
+      <title>Poerenfunderingsconstructie</title>
+      <rect x="3189.5" y="1467" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="3190" y="1467.5" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3190.5" y="1468" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="3292.55" y="1484" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="3203.64" y="1505" font-size="18" font-weight="500" fill="#ffffff" textLength="251.72" lengthAdjust="spacingAndGlyphs">Poerenfunderingsconstructie</text>
+    </a>
+  </g>
+  <g data-md-element="1b38b99d-d76c-4f4d-a994-33dc17c4996b">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie">
+      <title>Plaatfunderingsconstructie</title>
+      <rect x="2859.5" y="1440.5" width="280" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="2860" y="1441" width="279" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="2860.5" y="1441.5" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="2860.5" y1="1488.5" x2="3138.5" y2="1488.5" stroke="#4f73cc" stroke-width="1"/>
+      <text x="2962.55" y="1457.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="2883" y="1478.5" font-size="18" font-weight="500" fill="#ffffff" textLength="233" lengthAdjust="spacingAndGlyphs">Plaatfunderingsconstructie</text>
+      <text x="2868.5" y="1509" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="59b50315-27d2-485e-afc5-d61d7cd4cbaf">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie_attribuutsoort_vorstrand">
+        <title>vorstrand</title>
+        <text x="2868.5" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="65.45" lengthAdjust="spacingAndGlyphs">vorstrand</text>
+        <text x="2933.95" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="2942.42" y="1528" font-size="14" fill="#000000" textLength="53.78" lengthAdjust="spacingAndGlyphs">Boolean</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="178c0149-cd6a-4007-9491-50d330e75a48">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie">
+      <title>Strokenfunderingsconstructie</title>
+      <rect x="2526.5" y="1440.5" width="283.13" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="2527" y="1441" width="282.13" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="2527.5" y="1441.5" width="281.13" height="47.5" fill="#4f73cc"/>
+      <line x1="2527.5" y1="1488.5" x2="2808.63" y2="1488.5" stroke="#4f73cc" stroke-width="1"/>
+      <text x="2631.11" y="1457.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="2539.5" y="1478.5" font-size="18" font-weight="500" fill="#ffffff" textLength="257.13" lengthAdjust="spacingAndGlyphs">Strokenfunderingsconstructie</text>
+      <text x="2535.5" y="1509" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="05278eac-c471-45cc-8ef0-5c39c6b526f3">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie_attribuutsoort_vorstrand">
+        <title>vorstrand</title>
+        <text x="2535.5" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="65.45" lengthAdjust="spacingAndGlyphs">vorstrand</text>
+        <text x="2600.95" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="2609.42" y="1528" font-size="14" fill="#000000" textLength="53.78" lengthAdjust="spacingAndGlyphs">Boolean</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="3a81b4dd-440f-43a9-a191-8c3c7d0af3aa">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_op_funderingsconstructie">
+      <title>Fundering op funderingsconstructie</title>
+      <rect x="2141.5" y="1467" width="335.41" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="2142" y="1467.5" width="334.41" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="2142.5" y="1468" width="333.41" height="46.5" fill="#4f73cc"/>
+      <text x="2272.25" y="1484" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="2154.5" y="1505" font-size="18" font-weight="500" fill="#ffffff" textLength="309.41" lengthAdjust="spacingAndGlyphs">Fundering op funderingsconstructie</text>
+    </a>
+  </g>
+  <g data-md-element="8f012a75-b461-44c0-afd4-63ce4d2de6f1">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie">
+      <title>Betonnen paalfunderingsconstructie</title>
+      <rect x="1404.5" y="1440.5" width="340.19" height="102" rx="2" fill="#f5f7fd"/>
+      <rect x="1405" y="1441" width="339.19" height="101" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="1405.5" y="1441.5" width="338.19" height="47.5" fill="#4f73cc"/>
+      <line x1="1405.5" y1="1488.5" x2="1743.69" y2="1488.5" stroke="#4f73cc" stroke-width="1"/>
+      <text x="1537.64" y="1457.5" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="1417.5" y="1478.5" font-size="18" font-weight="500" fill="#ffffff" textLength="314.19" lengthAdjust="spacingAndGlyphs">Betonnen paalfunderingsconstructie</text>
+      <text x="1413.5" y="1509" font-size="12" font-weight="300" fill="#000000" textLength="88.02" lengthAdjust="spacingAndGlyphs">«Attribuutsoort»</text>
+    </a>
+    <g data-md-element="496f1f91-fabb-42f2-8e75-74da1c14660d">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie_attribuutsoort_betontype">
+        <title>betontype</title>
+        <text x="1413.5" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="69.41" lengthAdjust="spacingAndGlyphs">betontype</text>
+        <text x="1482.91" y="1528" font-size="14" font-weight="600" fill="#000000" textLength="4.47" lengthAdjust="spacingAndGlyphs">:</text>
+        <text x="1491.38" y="1528" font-size="14" fill="#000000" textLength="67.89" lengthAdjust="spacingAndGlyphs">Betontype</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="ae6de17d-1a29-4a7d-810e-4da9637c661f">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_pandtype_nog_in_te_vullen">
+      <title>Pandtype - Nog in te vullen</title>
+      <rect x="3619.5" y="20" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="3620" y="20.5" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3620.5" y="21" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="3728.97" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="61.06" lengthAdjust="spacingAndGlyphs">«Codelijst»</text>
+      <text x="3642.52" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="233.95" lengthAdjust="spacingAndGlyphs">Pandtype - Nog in te vullen</text>
+    </a>
+  </g>
+  <g data-md-element="188b116d-ac8a-4d0f-afc4-cfb1ec5df051">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_codelijst_materiaal">
+      <title>Materiaal</title>
+      <rect x="3619.5" y="109" width="280" height="49" rx="2" fill="#f5f7fd"/>
+      <rect x="3620" y="109.5" width="279" height="48" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3620.5" y="110" width="278" height="46.5" fill="#4f73cc"/>
+      <text x="3728.97" y="126" font-size="12" font-weight="300" fill="#ffffff" textLength="61.06" lengthAdjust="spacingAndGlyphs">«Codelijst»</text>
+      <text x="3719.59" y="147" font-size="18" font-weight="500" fill="#ffffff" textLength="79.8" lengthAdjust="spacingAndGlyphs">Materiaal</text>
+    </a>
+  </g>
+  <g data-md-element="694f096f-e4bd-43e0-84dc-e557170e086c">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen">
+      <title>Pandtype - nog te vervangen</title>
+      <rect x="3619.5" y="198" width="280" height="166" rx="2" fill="#f5f7fd"/>
+      <rect x="3620" y="198.5" width="279" height="165" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3620.5" y="199" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="3620.5" y1="246" x2="3898.5" y2="246" stroke="#4f73cc" stroke-width="1"/>
+      <text x="3721.61" y="215" font-size="12" font-weight="300" fill="#ffffff" textLength="75.78" lengthAdjust="spacingAndGlyphs">«Enumeratie»</text>
+      <text x="3633.98" y="236" font-size="18" font-weight="500" fill="#ffffff" textLength="251.02" lengthAdjust="spacingAndGlyphs">Pandtype - nog te vervangen</text>
+    </a>
+    <g data-md-element="70b99c5a-5f8f-4631-9ff7-afa1590bab6c">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_twee_onder_een_kappand">
+        <title>twee-onder-een-kappand</title>
+        <text x="3628.5" y="269.5" font-size="14" font-weight="600" fill="#000000" textLength="176.06" lengthAdjust="spacingAndGlyphs">twee-onder-een-kappand</text>
+      </a>
+    </g>
+    <g data-md-element="24038209-a8b0-47d8-b1f8-f285b009c15f">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_seriematig_rijtjespand">
+        <title>seriematig rijtjespand</title>
+        <text x="3628.5" y="289.5" font-size="14" font-weight="600" fill="#000000" textLength="146.97" lengthAdjust="spacingAndGlyphs">seriematig rijtjespand</text>
+      </a>
+    </g>
+    <g data-md-element="89cc7d0e-6236-441e-940f-3eaf05030f7d">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_niet_seriematig_rijtjespand">
+        <title>niet-seriematig rijtjespand</title>
+        <text x="3628.5" y="309.5" font-size="14" font-weight="600" fill="#000000" textLength="178.69" lengthAdjust="spacingAndGlyphs">niet-seriematig rijtjespand</text>
+      </a>
+    </g>
+    <g data-md-element="67691412-b5a9-42d7-a4b0-627007b4bc1f">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_appartementspand">
+        <title>appartementspand</title>
+        <text x="3628.5" y="329.5" font-size="14" font-weight="600" fill="#000000" textLength="128.77" lengthAdjust="spacingAndGlyphs">appartementspand</text>
+      </a>
+    </g>
+    <g data-md-element="da3c36f2-619f-44b0-92e0-f6ba9cc9bc86">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_pandtype_nog_te_vervangen_enumeratiewaarde_alleenstaand_pand">
+        <title>alleenstaand pand</title>
+        <text x="3628.5" y="349.5" font-size="14" font-weight="600" fill="#000000" textLength="124.31" lengthAdjust="spacingAndGlyphs">alleenstaand pand</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="b546aa73-c542-4620-809d-3b8a36c401a0">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype">
+      <title>Houttype</title>
+      <rect x="3619.5" y="404" width="280" height="106" rx="2" fill="#f5f7fd"/>
+      <rect x="3620" y="404.5" width="279" height="105" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3620.5" y="405" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="3620.5" y1="452" x2="3898.5" y2="452" stroke="#4f73cc" stroke-width="1"/>
+      <text x="3721.61" y="421" font-size="12" font-weight="300" fill="#ffffff" textLength="75.78" lengthAdjust="spacingAndGlyphs">«Enumeratie»</text>
+      <text x="3719.64" y="442" font-size="18" font-weight="500" fill="#ffffff" textLength="79.72" lengthAdjust="spacingAndGlyphs">Houttype</text>
+    </a>
+    <g data-md-element="079e1ee3-6f61-42c8-abb0-30ca3dd98813">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_vuren">
+        <title>vuren</title>
+        <text x="3628.5" y="475.5" font-size="14" font-weight="600" fill="#000000" textLength="38.89" lengthAdjust="spacingAndGlyphs">vuren</text>
+      </a>
+    </g>
+    <g data-md-element="e9473f82-022f-48df-9046-225b2e0f731e">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_grenen">
+        <title>grenen</title>
+        <text x="3628.5" y="495.5" font-size="14" font-weight="600" fill="#000000" textLength="47.7" lengthAdjust="spacingAndGlyphs">grenen</text>
+      </a>
+    </g>
+  </g>
+  <g data-md-element="3b4e59b7-8a6e-4cbc-8b6e-4176b5600a13">
+    <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype">
+      <title>Betontype</title>
+      <rect x="3619.5" y="550" width="280" height="106" rx="2" fill="#f5f7fd"/>
+      <rect x="3620" y="550.5" width="279" height="105" rx="1.5" fill="none" stroke="#4f73cc" stroke-width="1"/>
+      <rect x="3620.5" y="551" width="278" height="47.5" fill="#4f73cc"/>
+      <line x1="3620.5" y1="598" x2="3898.5" y2="598" stroke="#4f73cc" stroke-width="1"/>
+      <text x="3721.61" y="567" font-size="12" font-weight="300" fill="#ffffff" textLength="75.78" lengthAdjust="spacingAndGlyphs">«Enumeratie»</text>
+      <text x="3715.2" y="588" font-size="18" font-weight="500" fill="#ffffff" textLength="88.59" lengthAdjust="spacingAndGlyphs">Betontype</text>
+    </a>
+    <g data-md-element="9b8dee35-e9c0-43ef-9cff-0a3bcf4a02eb">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_gewapend_beton">
+        <title>gewapend beton</title>
+        <text x="3628.5" y="621.5" font-size="14" font-weight="600" fill="#000000" textLength="113.34" lengthAdjust="spacingAndGlyphs">gewapend beton</text>
+      </a>
+    </g>
+    <g data-md-element="89367a68-467b-4e65-98c3-2856b58d1a54">
+      <a href="#informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_ongewapend_beton">
+        <title>ongewapend beton</title>
+        <text x="3628.5" y="641.5" font-size="14" font-weight="600" fill="#000000" textLength="130.44" lengthAdjust="spacingAndGlyphs">ongewapend beton</text>
+      </a>
+    </g>
+  </g>
+</svg>

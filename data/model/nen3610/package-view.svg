@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354 615" width="354" height="615" role="group" aria-label="Package View (NEN3610)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &apos;Segoe UI&apos;, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="md-196ac023-7d64-3d99-a332-bf0683e58885-triangle-hollow" markerWidth="24" markerHeight="24" refX="24" refY="12" orient="auto" markerUnits="strokeWidth">
+      <line x1="20" y1="12" x2="24" y2="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M 6 2 L 22 12 L 6 22 Z" fill="white" stroke="#4b5563" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="354" height="615" fill="#ffffff"/>
+  <g data-md-element="25c3bba0-841d-43bf-a892-5c21ad3c77b4">
+    <title>⁨«Generalisatie»⁩ (⁨ReeelObject⁩ → ⁨GeoObject⁩)</title>
+    <path d="M177.5 190L177.5 85" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-196ac023-7d64-3d99-a332-bf0683e58885-triangle-hollow)"/>
+    <path d="M177.5 190L177.5 85" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="b7f1057c-da7d-43ff-8aaf-c116b965a619">
+    <title>⁨«Generalisatie»⁩ (⁨Gebouw⁩ → ⁨Constructie⁩)</title>
+    <path d="M177.5 530L177.5 425" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-196ac023-7d64-3d99-a332-bf0683e58885-triangle-hollow)"/>
+    <path d="M177.5 530L177.5 425" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="4bea83b1-4eda-4c33-bdc2-176eb05e4d4c">
+    <title>⁨«Generalisatie»⁩ (⁨Constructie⁩ → ⁨ReeelObject⁩)</title>
+    <path d="M177.5 360L177.5 255" fill="none" stroke="#4b5563" stroke-width="1" marker-end="url(#md-196ac023-7d64-3d99-a332-bf0683e58885-triangle-hollow)"/>
+    <path d="M177.5 360L177.5 255" fill="none" stroke="#4b5563" stroke-width="10" visibility="hidden" pointer-events="stroke"/>
+  </g>
+  <g data-md-element="25c3bba0-841d-43bf-a892-5c21ad3c77b4">
+    <title>⁨«Generalisatie»⁩ (⁨ReeelObject⁩ → ⁨GeoObject⁩)</title>
+    <g>
+      <rect x="135.5" y="122.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="137.5" y="135.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="b7f1057c-da7d-43ff-8aaf-c116b965a619">
+    <title>⁨«Generalisatie»⁩ (⁨Gebouw⁩ → ⁨Constructie⁩)</title>
+    <g>
+      <rect x="135.5" y="462.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="137.5" y="475.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="4bea83b1-4eda-4c33-bdc2-176eb05e4d4c">
+    <title>⁨«Generalisatie»⁩ (⁨Constructie⁩ → ⁨ReeelObject⁩)</title>
+    <g>
+      <rect x="135.5" y="292.5" width="83.17" height="20.19" fill="#ffffff"/>
+      <text x="137.5" y="305.5" font-size="10.8" fill="#000000" textLength="79.17" lengthAdjust="spacingAndGlyphs">«Generalisatie»</text>
+    </g>
+  </g>
+  <g data-md-element="fb9d0a3e-d8da-4752-a44d-65f58c3f8fee">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
+      <title>GeoObject</title>
+      <rect x="20" y="20" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="20.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="21" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="37" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="131.27" y="58" font-size="18" font-weight="500" fill="#ffffff" textLength="91.45" lengthAdjust="spacingAndGlyphs">GeoObject</text>
+      <text x="33.11" y="75.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="a782b9cd-ec1d-4c74-82e6-b26ff4aa6c54">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object">
+      <title>ReeelObject</title>
+      <rect x="20" y="190" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="190.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="191" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="207" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="124.88" y="228" font-size="18" font-weight="500" fill="#ffffff" textLength="104.23" lengthAdjust="spacingAndGlyphs">ReeelObject</text>
+      <text x="33.11" y="245.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="50512610-75a0-4946-88ea-260ecf19cdd7">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie">
+      <title>Constructie</title>
+      <rect x="20" y="360" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="360.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="361" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="377" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="126.92" y="398" font-size="18" font-weight="500" fill="#ffffff" textLength="100.14" lengthAdjust="spacingAndGlyphs">Constructie</text>
+      <text x="33.11" y="415.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+  <g data-md-element="b62020d5-7481-437d-b09c-656ee55e2bd9">
+    <a href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">
+      <title>Gebouw</title>
+      <rect x="20" y="530" width="314" height="65" rx="2" fill="#f3faf8"/>
+      <rect x="20.5" y="530.5" width="313" height="64" rx="1.5" fill="none" stroke="#00826b" stroke-width="1"/>
+      <rect x="21" y="531" width="312" height="62.5" fill="#00826b"/>
+      <text x="140.05" y="547" font-size="12" font-weight="300" fill="#ffffff" textLength="73.91" lengthAdjust="spacingAndGlyphs">«Objecttype»</text>
+      <text x="141.11" y="568" font-size="18" font-weight="500" fill="#ffffff" textLength="71.78" lengthAdjust="spacingAndGlyphs">Gebouw</text>
+      <text x="33.11" y="585.5" font-size="12" font-weight="300" font-style="italic" fill="#ffffff" textLength="287.78" lengthAdjust="spacingAndGlyphs">(from NEN 3610:2022 - Basismodel geo-informatie)</text>
+    </a>
+  </g>
+</svg>

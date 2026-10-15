@@ -27,7 +27,7 @@
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_funderingsconstructie_generalisatie_constructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -443,7 +443,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_diepe_funderingsconstructie_generalisatie_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -645,7 +645,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -847,7 +847,7 @@ Niveau van de onderkant van het funderingselement t.o.v. een referentieniveau.</
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_amsterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1052,7 +1052,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_rotterdamse_paalfunderingsconstructie_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1256,7 +1256,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonkop_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1378,7 +1378,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_houten_paalfunderingsconstructie_met_betonoplanger_generalisatie_houten_paalfunderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1501,7 +1501,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_betonnen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1623,7 +1623,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_staalbuizen_paalfunderingsconstructie_generalisatie_diepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1683,7 +1683,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_ondiepe_funderingsconstructie_generalisatie_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1844,7 +1844,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_fundering_op_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -1903,7 +1903,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_strokenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2025,7 +2025,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_plaatfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2147,7 +2147,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -2206,7 +2206,7 @@ Een Rotterdamse fundering is een type houten paalfundering bestaande uit een gem
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_getrapte_funderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>

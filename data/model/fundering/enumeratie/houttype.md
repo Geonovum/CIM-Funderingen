@@ -25,16 +25,18 @@
   <th>Waarde</th>
   <th>Definitie</th>
 </tr>
-<tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_vuren">
 <td>
 vuren</td>
 <td>
 </td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_houttype_enumeratiewaarde_grenen">
 <td>
 grenen</td>
 <td>
 </td>
+</tr>
 </tbody>
 </table>
 

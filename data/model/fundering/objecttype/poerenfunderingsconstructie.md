@@ -27,7 +27,7 @@
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_poerenfunderingsconstructie_generalisatie_ondiepe_funderingsconstructie" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>

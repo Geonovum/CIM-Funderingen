@@ -1,6 +1,11 @@
 <section id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand">
 <h2>Pand</h2>
 
+<figure data-md-diagram="0bdf254d-bdc6-4063-8167-15c9d0e4b174">
+<div data-include="data/model/fundering/objecttype/pand.pandtypologie.svg" data-include-format="html"><img src="data/model/fundering/objecttype/pand.pandtypologie.png" alt="Pandtypologie" loading="lazy"></div>
+<figcaption>Pandtypologie</figcaption>
+</figure>
+
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -27,7 +32,7 @@
 
 <section class="notoc">
 <h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
+<table id="informatiemodel_informatiemodel_funderingen_domein_fundering_objecttype_pand_generalisatie_pand" style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
@@ -169,5 +174,3 @@ Classificatie van een pand op basis van de bouwkundige verschijningsvorm en de c
 </section>
 
 </section>
-
-![Pandtypologie](data/model/fundering/objecttype/pand.pandtypologie.png "Pandtypologie")

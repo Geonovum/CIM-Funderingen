@@ -1,6 +1,9 @@
-## Extern NEN3610
+## Extern NEN3610 {#extern_nen3610}
 
-![mim:Extern NEN3610](data/model/nen3610/package-view.png "mim:Extern NEN3610")
+<figure data-md-diagram="196ac023-7d64-3d99-a332-bf0683e58885">
+<div data-include="data/model/nen3610/package-view.svg" data-include-format="html"><img src="data/model/nen3610/package-view.png" alt="Extern NEN3610" loading="lazy"></div>
+<figcaption>Extern NEN3610</figcaption>
+</figure>
 
 ### Objecttypen
 

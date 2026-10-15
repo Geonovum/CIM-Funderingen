@@ -25,9 +25,14 @@
   <!-- Hier wordt het favicon gezet -->
   <link rel="shortcut icon" type="image/x-icon" href="https://docs.geostandaarden.nl/media/Geonovum.ico" />
 
+  <!-- ModelDesk's runtime voor modeldiagrammen. Een script (geplaatst vóór ReSpec en ná het moment dat
+   respecConfig definitief is, en zonder class="remove", zodat het behouden blijft in de gepubliceerde kopie. -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@modeldesk/respec@0.1.0/dist/modeldesk-respec.js"
+    integrity="sha384-ytqM8F2hafxjLjoYd+eWA+WUrGOvq5v93wQvBwr/WEsUnR8CIMsCmuMmm2rFLlNV"
+    crossorigin="anonymous"
+  ></script>
   <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script>
-  <script src="js/modeldesk-respec.js?v=3" defer></script>
-  <link rel="stylesheet" href="media/css/modeldesk-respec.css?v=3" />
   <!-- De volgende regel zorgt ervoor dat plaatjes uit Imvertor niet geschaald
        worden, zodat de imagemap die op deze plaatjes zit werkt. -->
   <style>div.imageinfo img {max-width: none;}</style>

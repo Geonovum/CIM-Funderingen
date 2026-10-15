@@ -1,6 +1,9 @@
-## Extern IMBAG
+## Extern IMBAG {#extern_imbag}
 
-![mim:Extern IMBAG](data/model/imbag/package-view.png "mim:Extern IMBAG")
+<figure data-md-diagram="4cb2725c-6358-332e-affb-8622af8d50e8">
+<div data-include="data/model/imbag/package-view.svg" data-include-format="html"><img src="data/model/imbag/package-view.png" alt="Extern IMBAG" loading="lazy"></div>
+<figcaption>Extern IMBAG</figcaption>
+</figure>
 
 ### Objecttypen
 

@@ -25,16 +25,18 @@
   <th>Waarde</th>
   <th>Definitie</th>
 </tr>
-<tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_gewapend_beton">
 <td>
 gewapend beton</td>
 <td>
 </td>
-<tr>
+</tr>
+<tr id="informatiemodel_informatiemodel_funderingen_domein_fundering_enumeratie_betontype_enumeratiewaarde_ongewapend_beton">
 <td>
 ongewapend beton</td>
 <td>
 </td>
+</tr>
 </tbody>
 </table>
 
